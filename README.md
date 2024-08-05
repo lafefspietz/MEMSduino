@@ -19,13 +19,19 @@ As companies create commercial products based on these MEMS switches, they can b
 
 We present here an Arduino-based controller which allows experimenters to cheaply and easily control MEMS-based switches in a dilution refrigerator.  
 
-
 # Elements
 
  - Control Panel PCB
  - BUD Box
  - Wood Rack Mount Board
-
+ - 3d printed parts
+ - Arduino shield board
+ - DB 25 and relay breakout board
+ - DB25 to Fischer cable
+ - MicroD breakout board
+ - Arduino Code
+ - Python Control
+ - Matlab Control
 
 # Control Panel PCB
 
@@ -74,7 +80,10 @@ This box can be modified yourself if you have access to a milling machine or you
  - [Standoffs from McMaster Carr, part number #91075A462](https://www.mcmaster.com/91075A462/)
  - [3/4" 4-40 brass screws from McMastrer Carr](https://www.mcmaster.com/93465A113/)
  - [#4 brass washers from McMastrer Carr](https://www.mcmaster.com/92916A320/)
- - [4-40 tap]()
+ - [4-40 tap](https://www.mcmaster.com/25995A125/)
+ - [tap wrench](https://www.mcmaster.com/25605A63/)
+ - [#43 drill](https://www.mcmaster.com/3584A232)
+ - [1/8" End Mill](https://www.mcmaster.com/3056A61/)
  - [.pdf drawing for Box](machining_files/AN-1304-A-lid-machined.pdf)
  - [SolidWorks part file for Box](machining_files/AN-1304-A-lid-machined.SLDPRT)
  - [SolidWorks drawing file for Box](machining_files/AN-1304-A-lid-machined.SLDDRW)
@@ -103,6 +112,142 @@ This box can be modified yourself if you have access to a milling machine or you
 ![](images/number-4-washer.png)
 
 ![](images/bolts-in-wood.jpg)
+
+
+# Wood Board
+
+
+ - [Dimensioned drawing and templates rack-mount-board.pdf](rack-mount-board.pdf)
+ - [Solidworks Drawing rack-mount-board.SLDDRW](rack-mount-board.SLDDRW)
+ - [Solidworks part file for rack-mount-board.SLDPRT](rack-mount-board.SLDPRT)
+ - [Link to buy board](https://ocoochhardwoods.com/detail/?i=124wo)
+ - [Mouser link to buy nuts for rack](https://www.mouser.com/ProductDetail/Hammond-Manufacturing/1421NP25?qs=yc9RBI4tIALvGirsWAVfbg%3D%3D)
+ - [Link to buy wood screws](https://www.mcmaster.com/98685A540/)
+ - [Link to buy thumb screws](https://www.mcmaster.com/92421A645/)
+
+We use white oak boards which can be purchased in convenient sizes and cut to fit a 19 inch rack.  
+
+[![](images/white-oak-board.png)](https://ocoochhardwoods.com/detail/?i=124wo)
+
+![](images/board-dimensioned-drawing.png)
+
+![](images/wood.png)
+
+![](images/wood-screw-drawing.png)
+
+![](images/wood-screw-photo.png)
+
+![](images/panel-board-front-no-pcb.jpg)
+
+![](images/rack-screw-image.png)
+
+![](images/rack-screw-drawing.png)
+
+![](images/ruler-19inch-line.jpg)
+
+![](images/bandsaw.jpg)
+
+![](images/bandsaw2.jpg)
+
+![](images/rough-edge.jpg)
+
+![](images/sander.jpg)
+
+![](images/sanded-edge.jpg)
+
+![](images/drills.jpg)
+
+![](images/paper-template-edge.jpg)
+
+![](images/awl-punch.jpg)
+
+![](images/sixteenth.jpg)
+
+![](images/eighth.jpg)
+
+![](images/finalbit.jpg)
+
+![](images/rack-nut.jpg)
+
+![](images/nuts-in-rack.jpg)
+
+![](images/panel-in-rack-edge.jpg)
+
+![](images/blank-board-in-rack.jpg)
+
+
+# 3d Printed Files
+
+
+
+![](images/all-3d-printed-parts.jpg)
+
+These 3d printed parts are used to attach the control panel circuit board to the wood rack mount panel, to attach the Arduino to the back of the same panel, and to mount the high voltage DC-DC converter to the inside of the Bud Box.
+
+ 1. [front-panel-edge-bracket.STL, print 2, add inserts](3dprint_files/front-panel-edge-bracket.STL)
+ 2. [front-panel-center-bracket.STL, print 2](3dprint_files/front-panel-center-bracket.STL)
+ 3. [arduino-bracket.STL, print 1, add inserts](3dprint_files/arduino-bracket.STL)
+ 4. [HV-DCDC-bracket.STL, print 1, add inserts](3dprint_files/HV-DCDC-bracket.STL) 
+
+## Thread Inserts
+
+[![images/4-40-inserts.png](images/4-40-inserts.png)](https://www.3djake.com/ruthex/threaded-insert-4-40-unc-100-pieces)
+
+## 4-40 Quarter Inch Screws
+
+[![images/4-40-0.25-screw.png](images/4-40-0.25-screw.png)](https://www.mcmaster.com/90272A106/)
+
+## #4 Wood Screws
+
+[Mcmaster-Carr Part number 98685A540](https://www.mcmaster.com/98685A540/)
+
+[![](images/wood-screw.png)](https://www.mcmaster.com/98685A540/)
+
+## Arduino Bracket
+
+Print one of these per controller.  This works for both Arduino UNO and Arduino Mega. Screw into wood using #4 wood screws.  
+
+Use 4-40 brass thread inserts, press them in with a soldering iron. 
+
+[![arduino-bracket.STL](images/arduino-bracket.png)](arduino-bracket.STL) 
+
+[![arduino-bracket.STL](images/arduino-bracket.jpg)](arduino-bracket.STL) 
+
+
+## DC DC converter Bracket
+
+Use 4-40 brass thread inserts, press them in with a soldering iron
+
+[![HV-DCDC-bracket.STL](images/HV-DCDC-bracket.png)](HV-DCDC-bracket.STL) 
+
+[![HV-DCDC-bracket.STL](images/HV-DCDC-bracket.jpg)](HV-DCDC-bracket.STL)
+
+## Front Panel Edge Bracket
+
+Use 4-40 brass thread inserts, press them in with a soldering iron. Attach to wood with #4 wood screws. 
+
+[![front-panel-edge-bracket.STL](images/front-panel-edge-bracket.png)](front-panel-edge-bracket.STL) 
+
+
+[![front-panel-edge-bracket.STL](images/front-panel-edge-bracket.jpg)](front-panel-edge-bracket.STL) 
+
+## Front Panel Center Bracket
+
+place in center area of circuit board to prevent bowing, use #4 wood screws to mount.
+
+[![front-panel-center-bracket.STL](images/front-panel-center-bracket.png)](front-panel-center-bracket.STL) 
+
+
+[![front-panel-center-bracket.STL](images/front-panel-center-bracket.jpg)](front-panel-center-bracket.STL) 
+
+## Assembly with Wood Board
+
+![](images/panel-board-front-no-pcb.jpg)
+
+## Arduino UNO Hole Pattern
+
+![](images/uno-hole-dimensions.png)
+
 
 # Total Bill of Materials
 
