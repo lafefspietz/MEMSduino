@@ -20,14 +20,93 @@ As companies create commercial products based on these MEMS switches, they can b
 We present here an Arduino-based controller which allows experimenters to cheaply and easily control MEMS-based switches in a dilution refrigerator.  
 
 
-# Hardware Description
+# Elements
 
-This system consists of a control panel designed to mount in a 19 inch standard equipment rack, taking up just over 2u of vertical space, which can control a pair of 9 port switches for calibration and large throughput measurements.  
+ - Control Panel PCB
+ - BUD Box
+ - Wood Rack Mount Board
 
 
-# Bill of Materials
+# Control Panel PCB
 
- - 1 Arduino UNO
+This board both controls the state of the switches with a set of 9 buttons and indicates the current switch state with a set of 9 LED's.  
+
+![](images/control-board-photo.jpg)
+
+![](images/assembled-board-photo.jpg)
+
+![](images/dimensions-drawing.png)
+
+![](images/9button-9neopixels-pcbdoc-screenshot.png)
+
+![](images/9button-9neopixels-schematic-screenshot.png)
+
+![](images/button-schematic.svg)
+
+## Bill of Materials
+
+![](images/control-board-parts-photo.jpg)
+
+ - [PCB's](https://www.pcbway.com)
+ - [ Neopixels (9x)](https://www.adafruit.com/product/1559)
+ - [10 k resistors (9x)](https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-10K/13219)
+ - [4 pin header cable (1x)](https://www.amazon.com/ZYAMY-Dupont-Connector-Multicolor-Breadboard/dp/B0789F523N/)
+ - [header strips (40 pins)](https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/G800W268018EU/17083164)
+ - [buttons (9x)](https://www.digikey.com/en/products/detail/e-switch/TL59NF160Q/390533)
+
+[Digkey Cart with everything but PCB's](https://www.digikey.com/short/jzc9cpp0)
+
+## Files
+
+ - [PCB_files/Altium Schematic .SchDoc](9button-9neopixel.schDoc)
+ - [PCB_files/Altium project file .PrjPcb](9button-9neopixel.PrjPcb)
+ - [PCB_files/Altium Pcb File .PcbDoc](9button-9neopixel.PrjPcb)
+ - [PCB_files/.zip of Gerber files](9button-9neopixel-gerbers.zip)
+
+# BUD Box
+
+We use a diecast aluminum enclosure from [Bud Industries](https://www.budind.com/)(part number [AN-1304-A](https://www.budind.com/product/nema-ip-rated-boxes/an-a-series-style-a-aluminum-enclosure/an-1304/)) to enclose the high voltage driver for the MEMS switches used in the QNA system. 
+
+This box can be modified yourself if you have access to a milling machine or you can get it modified by Bud or by some third party machine shop.  
+
+ - [AN-1304-A Bud Box page at Bud Industries](https://www.budind.com/product/nema-ip-rated-boxes/an-a-series-style-a-aluminum-enclosure/an-1304/#group=series-products&external_dimensions_group=0&internal_dimensions=0&mounting_style_group=0)
+ - [AN-1304 Bud Box at Digikey](https://www.digikey.com/en/products/detail/bud-industries/AN-1304-A/5804538)
+ - [Standoffs from McMaster Carr, part number #91075A462](https://www.mcmaster.com/91075A462/)
+ - [3/4" 4-40 brass screws from McMastrer Carr](https://www.mcmaster.com/93465A113/)
+ - [#4 brass washers from McMastrer Carr](https://www.mcmaster.com/92916A320/)
+ - [4-40 tap]()
+ - [.pdf drawing for Box](machining_files/AN-1304-A-lid-machined.pdf)
+ - [SolidWorks part file for Box](machining_files/AN-1304-A-lid-machined.SLDPRT)
+ - [SolidWorks drawing file for Box](machining_files/AN-1304-A-lid-machined.SLDDRW)
+ - [STEP file for Box](machining_files/AN-1304-A-lid-machined.STEP)
+ - [.pdf drawing file for lid](machining_files/AN-1304-A-machined-box.pdf)
+ - [SolidWorks part file for lid](machining_files/AN-1304-A-machined-box.SLDPRT)
+ - [SolidWorks drawing file for lid](machining_files/AN-1304-A-machined-box.SLDDRW)
+ - [STEP file for lid](machining_files/AN-1304-A-machined-box.STEP)
+
+![](images/bud-box-lid-top.jpg)
+
+![](images/AN-1304-A-lid-machined.png)
+
+![](images/AN-1304-A-box-machined.png)
+
+![](images/AN-1304-A-photo.png)
+
+![](images/AN-1304-A-drawing.png)
+
+![](images/standoffs-DSUB-mcmaster-91076A462-full.png)
+
+![](images/machining-quote-bud.png)
+
+![](images/threequarter-4-40-screws.png)
+
+![](images/number-4-washer.png)
+
+![](images/bolts-in-wood.jpg)
+
+# Total Bill of Materials
+
+ - [$16.90 1 Arduino UNO](https://www.digikey.com/en/products/detail/dfrobot/DFR0216/6579366)
  - 9 Single Neopixel boards
  - 9 Buttons
  - 1 4"x24"x1/2" white oak board
