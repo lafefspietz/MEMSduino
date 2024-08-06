@@ -298,6 +298,43 @@ place in center area of circuit board to prevent bowing, use #4 wood screws to m
  - [.zip of Gerber files](PCB_files/DB25-relay-HV-control-gerbers.zip)
 
 
+# 0.1 Inch Header Cables
+
+![](images/2pin-cable-image.png)
+
+![](images/4pin-cable-image.png)
+
+![](images/8pin-cable-photo.png)
+
+ - [2 wire](https://www.amazon.com/ZYAMY-Dupont-Connector-Multicolor-Breadboard/dp/B0B8Z23NWX/)
+ - [4 wire](https://www.amazon.com/ZYAMY-Dupont-Connector-Multicolor-Breadboard/dp/B0789F523N/)
+ - [8 wire](https://www.amazon.com/ZYAMY-Dupont-Connector-Multicolor-Breadboard/dp/B0789F2Y1T/)
+
+
+# 90 Volt Power Supply
+
+We use the 5 volt regulated supply on the Arduino UNO as a source for a pair of DC-DC converters. A pair of header pins on the [Arduino Uno Shield Board](../arduino_shield_pcb/) connect to a 2 wire cable which joins a 2 pin socket connector to the first DC-DC converter(5 volts to 12 volts), which in turn connects to the high voltage adjustable DC-DC converter which converts from 12 volts up to 90 volts.  This 90 volt signal connects to the [DB25 Relay Circuit Board](../DB25_relay_pcb/) via the other half of a split 2 wire connector.  
+
+## [2 Wire Cable from Amazon](https://www.amazon.com/ZYAMY-Dupont-Connector-Multicolor-Breadboard/dp/B0B8Z23NWX/)
+
+![](images/2pin-cable-image.png)
+
+[![](images/2pin-cable-amazon.png)](https://www.amazon.com/ZYAMY-Dupont-Connector-Multicolor-Breadboard/dp/B0B8Z23NWX/)
+
+## [5 V to 12 V boost from Amazon]((https://www.amazon.com/DROK-Boost-Converter-Regulator-Length/dp/B09M3LMSS3/))
+
+[![](images/5v-12v-boost-amazon.png)](https://www.amazon.com/DROK-Boost-Converter-Regulator-Length/dp/B09M3LMSS3/)
+
+## [12 V to variable HV Boost board from Amazon](https://www.amazon.com/Voltage-Converter-Vintage-Indicator-80V-380V/dp/B09D93QNYK)
+
+[![](images/HV-boost-amazon.png)](https://www.amazon.com/Voltage-Converter-Vintage-Indicator-80V-380V/dp/B09D93QNYK)
+
+![](images/dcdc-HV.PNG)
+
+![](images/dcdc-HV-installation-photo.PNG)
+
+
+
 # Total Bill of Materials
 
  - [$16.90 1 Arduino UNO](https://www.digikey.com/en/products/detail/dfrobot/DFR0216/6579366)
