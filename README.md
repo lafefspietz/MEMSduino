@@ -27,6 +27,8 @@ We present here an Arduino-based controller which allows experimenters to cheapl
  - 3d printed parts
  - Arduino shield board
  - DB 25 and relay breakout board
+ - 0.1 inch pitch header cables
+ - DC DC Converter to 90 volts
  - DB25 to Fischer cable
  - MicroD breakout board
  - Arduino Code
@@ -247,6 +249,53 @@ place in center area of circuit board to prevent bowing, use #4 wood screws to m
 ## Arduino UNO Hole Pattern
 
 ![](images/uno-hole-dimensions.png)
+
+# Arduino Shield Board
+
+![](images/kit-photo.jpg)
+
+![](images/board-photo.jpg)
+
+## Bill of Materials
+
+ - [330 ohm resistors](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF18JT330R/1741683)
+ - [100k resistors](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNF14FTD100K/1706591)
+ - [1000 uF Capacitors](https://www.digikey.com/en/products/detail/rubycon/16PK1000MEFC10X12-5/3563556)
+ - [header strips (40 pins)](https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/G800W268018EU/17083164)
+
+
+## Files
+
+ - [Altium Schematic .SchDoc](PCB_files/arduino-to-headers-shield.schDoc)
+ - [Altium project file .PrjPcb](PCB_files/arduino-to-headers-shield.PrjPcb)
+ - [Altium Pcb File .PcbDoc](PCB_files/arduino-to-headers-shield.PcbDoc)
+ - [.zip of Gerber files](PCB_files/arduino-to-headers-shield-gerbers.zip)
+
+# DB25 Relay Board
+
+
+![](images/board-photo-unstuffed.jpg)
+
+![](images/board-photo.png)
+
+
+## Bill of Materials
+
+![](images/db25-relay-board-kit-photo.jpg)
+
+
+ - [1 MOhm 1206 SMT resistors](https://www.digikey.com/en/products/detail/yageo/RC1206FR-071ML/728388)
+ - [DB25 board mount connector](https://www.digikey.com/en/products/detail/assmann-wsw-components/A-DF-25-PP-Z/1241794)
+ - [Comus 3570-1331-053 Relays](https://www.digikey.com/en/products/detail/comus-international/3570-1331-053/7497099)
+ - [header strips (40 pins)](https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/G800W268018EU/17083164)
+
+
+## Files
+
+ - [Altium Schematic .SchDoc](PCB_files/DB25-relay-HV-control.schDoc)
+ - [Altium project file .PrjPcb](PCB_files/DB25-relay-HV-control.PrjPcb)
+ - [Altium Pcb File .PcbDoc](PCB_files/DB25-relay-HV-control.PcbDoc)
+ - [.zip of Gerber files](PCB_files/DB25-relay-HV-control-gerbers.zip)
 
 
 # Total Bill of Materials
