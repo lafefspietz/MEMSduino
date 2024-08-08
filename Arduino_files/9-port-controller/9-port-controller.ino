@@ -234,13 +234,13 @@ void loop() {
      if(ser == 54){    //ASCII for 6
       mode = 6;
      }
-     if(ser == 55){    //ASCII for 4
+     if(ser == 55){    //ASCII for 7
       mode = 7;
      }
-     if(ser == 56){    //ASCII for 5
+     if(ser == 56){    //ASCII for 8
       mode = 8;
      }
-     if(ser == 57){    //ASCII for 6
+     if(ser == 57){    //ASCII for 9
       mode = 9;
      }
 
