@@ -63,6 +63,7 @@ We present here an Arduino-based controller which allows experimenters to cheapl
 
 # Machining Files
 
+
  - [.pdf drawing for Box](machining_files/AN-1304-A-lid-machined.pdf)
  - [SolidWorks part file for Box](machining_files/AN-1304-A-lid-machined.SLDPRT)
  - [SolidWorks drawing file for Box](machining_files/AN-1304-A-lid-machined.SLDDRW)
@@ -83,8 +84,11 @@ We present here an Arduino-based controller which allows experimenters to cheapl
  - [standoff.pdf](machining_files/standoff.pdf)
  - [standoff.SLDDRW](machining_files/standoff.SLDDRW)
  - [standoff.SLDPRT](machining_files/standoff.SLDPRT)
+ - [rack-mount-board.pdf](machining_files/rack-mount-board.pdf)
+ - [rack-mount-board.SLDDRW](machining_files/rack-mount-board.SLDDRW)
+ - [rack-mount-board.SLDPRT](machining_files/rack-mount-board.SLDPRT)
 
- # Computer Files
+# Computer Files
 
  - [9-port-controller/9-port-controller.ino](9-port-controller/9-port-controller.ino)
  - [8_port_ecal_controller/8_port_ecal_controller.ino](8_port_ecal_controller/8_port_ecal_controller.ino)
