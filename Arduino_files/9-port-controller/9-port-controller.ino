@@ -5,7 +5,7 @@
 #endif
 
 // Which pin on the Arduino is connected to the NeoPixels?
-#define PIN 19 // On Trinket or Gemma, suggest changing this to 1
+#define PIN 19 // A5 on UNO is pin 19
 
 // How many NeoPixels are attached to the Arduino?
 #define NUMPIXELS 9 // 
@@ -41,37 +41,10 @@ Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 int analog = 0;
 int delta = 20;
 int mode = 1;//modes are 1,2,3,4,5,6,7,8,9 which are pixel 8,7,6,5,4,3,2,1, and 0 respectively
-
+int cycle = 0;//variable for cycling colors as test pattern with switch off
 
 void setup() {
-    Serial.begin(115200);
-
-
-  // These lines are specifically to support the Adafruit Trinket 5V 16 MHz.
-  // Any other board, you can remove this part (but no harm leaving it):
-#if defined(__AVR_ATtiny85__) && (F_CPU == 16000000)
-  clock_prescale_set(clock_div_1);
-#endif
-  // END of Trinket-specific code.
-
-/*
-    pinMode(2,OUTPUT);// DSUB 8,  U4 -> U1
-    pinMode(3,OUTPUT);// DSUB 9,  U4 -> U2
-    pinMode(4,OUTPUT);// DSUB 10, U4 -> U3
-    pinMode(5,OUTPUT);// DSUB 11, U4 COM
-    pinMode(6,OUTPUT);// DSUB 14, U3 -> port 7
-    pinMode(7,OUTPUT);// DSUB 15, U3 -> port 8
-    pinMode(8,OUTPUT);// DSUB 16, U3 -> port 9
-    pinMode(9,OUTPUT);// DSUB 17, U3 COM
-    pinMode(10,OUTPUT);//DSUB 18, U2 -> 4 
-    pinMode(11,OUTPUT);//DSUB 19, U2 -> 5
-    pinMode(12,OUTPUT);//DSUB 20, U2 -> 6
-    pinMode(13,OUTPUT);//DSUB 21, U2 COM
-    pinMode(14,OUTPUT);//DSUB 22, U1 -> 1
-    pinMode(15,OUTPUT);//DSUB 23, U1 -> 2
-    pinMode(16,OUTPUT);//DSUB 24, U1 -> 3
-    pinMode(17,OUTPUT);//DSUB 25, U1 COM
-*/
+    Serial.begin(9600);
 
     pinMode(U4_COM,OUTPUT);
     pinMode(U4_123,OUTPUT);
@@ -165,6 +138,15 @@ void loop() {
     }
   }
 
+  if(analog > 498 - delta && analog < 498 + delta){//buttons 4 and 6 at the same time with 2 fingers, like the three Stooges
+     delay(1);
+     analog = analogRead(A4);
+
+    if(analog > 498 - delta && analog < 498 + delta){
+      mode = -1;    
+    }
+  }
+
   if(analog > 464 - delta && analog < 464 + delta){
      delay(1);
      analog = analogRead(A4);
@@ -212,10 +194,12 @@ void loop() {
 
   if (Serial.available()) {
 
-    //for more info on this code see http://adam-meyer.com/arduino/arduino-serial
     //read serial as ascii integer
      int ser = Serial.read();
     //    Serial.println(ser);
+    if(ser == 48){    //ASCII for 0
+      mode = 0;
+     }  
      if(ser == 49){    //ASCII for 1
       mode = 1;
      }
@@ -243,7 +227,9 @@ void loop() {
      if(ser == 57){    //ASCII for 9
       mode = 9;
      }
-
+     if(ser == 99){    //ASCII for c, which stands for "cycle"
+      mode = -1;
+     }
 
   }
 
@@ -503,11 +489,75 @@ void loop() {
     digitalWrite(U3_9,HIGH);
 
   }
+if(mode == 0){
+    pixels.setPixelColor(0, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(1, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(2, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(3, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(4, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(5, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(6, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(7, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(8, pixels.Color(0, 0, 0));    
 
+    digitalWrite(U4_123,LOW);
+    digitalWrite(U4_456,LOW);
+    digitalWrite(U4_789,LOW);
+
+    digitalWrite(U1_1,LOW);
+    digitalWrite(U1_2,LOW);
+    digitalWrite(U1_3,LOW);
+ 
+    digitalWrite(U2_4,LOW);
+    digitalWrite(U2_5,LOW);
+    digitalWrite(U2_6,LOW);
+
+    digitalWrite(U3_7,LOW);
+    digitalWrite(U3_8,LOW);
+    digitalWrite(U3_9,LOW);
+
+  }
+if(mode == -1){
+
+    //this is the same as mode 0, but it adds color cycles for a test pattern.  
+    //change this to be anything you want, it has no impact on function.
+    pixels.setPixelColor(0, pixels.Color(cycle, (cycle + 85)%256, (cycle + 177)%256));    
+    pixels.setPixelColor(1, pixels.Color(cycle + 28, (cycle + 85 + 28)%256, (cycle + 177 + 42)%256));    
+    pixels.setPixelColor(2, pixels.Color(cycle + 2*28, (cycle + 85 + 2*28)%256, (cycle + 177 + 2*28)%256));    
+    pixels.setPixelColor(3, pixels.Color(cycle + 3*28, (cycle + 85 + 3*28)%256, (cycle + 177 + 3*28)%256));    
+    pixels.setPixelColor(4, pixels.Color(cycle + 4*28, (cycle + 85 + 4*28)%256, (cycle + 177 + 4*28)%256));    
+    pixels.setPixelColor(5, pixels.Color(cycle + 5*28, (cycle + 85 + 5*28)%256, (cycle + 177 + 5*28)%256));    
+    pixels.setPixelColor(6, pixels.Color(cycle + 6*28, (cycle + 85 + 6*28)%256, (cycle + 177 + 6*28)%256));    
+    pixels.setPixelColor(7, pixels.Color(cycle + 7*28, (cycle + 85 + 7*28)%256, (cycle + 177 + 7*28)%256));    
+    pixels.setPixelColor(8, pixels.Color(cycle + 8*28, (cycle + 85 + 8*28)%256, (cycle + 177 + 8*28)%256));    
+    
+
+
+    digitalWrite(U4_123,LOW);
+    digitalWrite(U4_456,LOW);
+    digitalWrite(U4_789,LOW);
+
+    digitalWrite(U1_1,LOW);
+    digitalWrite(U1_2,LOW);
+    digitalWrite(U1_3,LOW);
+ 
+    digitalWrite(U2_4,LOW);
+    digitalWrite(U2_5,LOW);
+    digitalWrite(U2_6,LOW);
+
+    digitalWrite(U3_7,LOW);
+    digitalWrite(U3_8,LOW);
+    digitalWrite(U3_9,LOW);
+    cycle++;
+    if(cycle > 255){
+      cycle = 0;
+    }
+    delay(10);
+  }
   
   pixels.show();   // Send the updated pixel colors to the hardware.
   delay(1); // Pause before next pass through loop
 
-//    Serial.println(analog);
+  //Serial.println(analog);
 
 }
