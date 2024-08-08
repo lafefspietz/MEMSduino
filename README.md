@@ -333,6 +333,9 @@ We use the 5 volt regulated supply on the Arduino UNO as a source for a pair of 
 
 ![](images/dcdc-HV-installation-photo.PNG)
 
+# Arduino Code
+
+ - [8_port_ecal_controller/8_port_ecal_controller.ino](8_port_ecal_controller/8_port_ecal_controller.ino)
 
 
 # Total Bill of Materials
