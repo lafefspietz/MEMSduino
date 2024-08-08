@@ -35,6 +35,66 @@ We present here an Arduino-based controller which allows experimenters to cheapl
  - Python Control
  - Matlab Control
 
+# Circuit Board Files
+
+ - [PCB_files/Altium Schematic .SchDoc](9button-9neopixel.schDoc)
+ - [PCB_files/Altium project file .PrjPcb](9button-9neopixel.PrjPcb)
+ - [PCB_files/Altium Pcb File .PcbDoc](9button-9neopixel.PrjPcb)
+ - [PCB_files/.zip of Gerber files](9button-9neopixel-gerbers.zip)
+ - [Altium Schematic .SchDoc](PCB_files/arduino-to-headers-shield.schDoc)
+ - [Altium project file .PrjPcb](PCB_files/arduino-to-headers-shield.PrjPcb)
+ - [Altium Pcb File .PcbDoc](PCB_files/arduino-to-headers-shield.PcbDoc)
+ - [.zip of Gerber files](PCB_files/arduino-to-headers-shield-gerbers.zip)
+ - [Altium Schematic .SchDoc](PCB_files/DB25-relay-HV-control.schDoc)
+ - [Altium project file .PrjPcb](PCB_files/DB25-relay-HV-control.PrjPcb)
+ - [Altium Pcb File .PcbDoc](PCB_files/DB25-relay-HV-control.PcbDoc)
+ - [.zip of Gerber files](PCB_files/DB25-relay-HV-control-gerbers.zip)
+ - [Altium Schematic .SchDoc](PCB_files/DB25-relay-HV-control.schDoc)
+ - [Altium project file .PrjPcb](PCB_files/DB25-relay-HV-control.PrjPcb)
+ - [Altium Pcb File .PcbDoc](PCB_files/DB25-relay-HV-control.PcbDoc)
+ - [.zip of Gerber files](PCB_files/DB25-relay-HV-control-gerbers.zip)
+
+# 3d Print Files
+
+ - [front-panel-edge-bracket.STL](3dprint_files/front-panel-edge-bracket.STL)
+ - [front-panel-center-bracket.STL](3dprint_files/front-panel-center-bracket.STL)
+ - [arduino-bracket.STL](3dprint_files/arduino-bracket.STL)
+ - [HV-DCDC-bracket.STL](3dprint_files/HV-DCDC-bracket.STL) 
+
+# Machining Files
+
+ - [.pdf drawing for Box](machining_files/AN-1304-A-lid-machined.pdf)
+ - [SolidWorks part file for Box](machining_files/AN-1304-A-lid-machined.SLDPRT)
+ - [SolidWorks drawing file for Box](machining_files/AN-1304-A-lid-machined.SLDDRW)
+ - [STEP file for Box](machining_files/AN-1304-A-lid-machined.STEP)
+ - [.pdf drawing file for lid](machining_files/AN-1304-A-machined-box.pdf)
+ - [SolidWorks part file for lid](machining_files/AN-1304-A-machined-box.SLDPRT)
+ - [SolidWorks drawing file for lid](machining_files/AN-1304-A-machined-box.SLDDRW)
+ - [STEP file for lid](machining_files/AN-1304-A-machined-box.STEP)
+ - [center-block-outside.pdf](machining_files/center-block-outside.pdf)
+ - [center-block-outside.SLDDRW](machining_files/center-block-outside.SLDDRW)
+ - [center-block-outside.SLDPRT](machining_files/center-block-outside.SLDPRT)
+ - [center-block-v2.pdf](machining_files/center-block-v2.pdf)
+ - [center-block-v2.SLDDRW](machining_files/center-block-v2.SLDDRW)
+ - [center-block-v2.SLDPRT](machining_files/center-block-v2.SLDPRT)
+ - [HBracket-M4.pdf](machining_files/HBracket-M4.pdf)
+ - [HBracket-M4.SLDDRW](machining_files/HBracket-M4.SLDDRW)
+ - [HBracket-M4.SLDPRT](machining_files/HBracket-M4.SLDPRT)
+ - [standoff.pdf](machining_files/standoff.pdf)
+ - [standoff.SLDDRW](machining_files/standoff.SLDDRW)
+ - [standoff.SLDPRT](machining_files/standoff.SLDPRT)
+
+ # Computer Files
+
+ - [9-port-controller/9-port-controller.ino](9-port-controller/9-port-controller.ino)
+ - [8_port_ecal_controller/8_port_ecal_controller.ino](8_port_ecal_controller/8_port_ecal_controller.ino)
+ - [6_port_controller_NIST_detector/6_port_controller_NIST_detector.ino](6_port_controller_NIST_detector/6_port_controller_NIST_detector.ino)
+ - [matlab/switch_control.m](matlab/switch_control.m)
+ - [jupyter/switch_control.ipynb](jupyter/switch_control.ipynb)
+
+
+
+
 # Control Panel PCB
 
 This board both controls the state of the switches with a set of 9 buttons and indicates the current switch state with a set of 9 LED's.  
@@ -70,6 +130,7 @@ This board both controls the state of the switches with a set of 9 buttons and i
  - [PCB_files/Altium project file .PrjPcb](9button-9neopixel.PrjPcb)
  - [PCB_files/Altium Pcb File .PcbDoc](9button-9neopixel.PrjPcb)
  - [PCB_files/.zip of Gerber files](9button-9neopixel-gerbers.zip)
+
 
 # BUD Box
 
@@ -335,8 +396,17 @@ We use the 5 volt regulated supply on the Arduino UNO as a source for a pair of 
 
 # Arduino Code
 
+ - [9-port-controller/9-port-controller.ino](9-port-controller/9-port-controller.ino)
  - [8_port_ecal_controller/8_port_ecal_controller.ino](8_port_ecal_controller/8_port_ecal_controller.ino)
+ - [6_port_controller_NIST_detector/6_port_controller_NIST_detector.ino](6_port_controller_NIST_detector/6_port_controller_NIST_detector.ino)
 
+# Matlab Code
+
+ - [matlab/switch_control.m](matlab/switch_control.m)
+
+# Python Code
+
+ - [jupyter/switch_control.ipynb](jupyter/switch_control.ipynb)
 
 # Total Bill of Materials
 
