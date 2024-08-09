@@ -92,6 +92,12 @@ We present here an Arduino-based controller which allows experimenters to cheapl
  - [rack-mount-board.SLDDRW](machining_files/rack-mount-board.SLDDRW)
  - [rack-mount-board.SLDPRT](machining_files/rack-mount-board.SLDPRT)
 
+# Build Files
+
+ - [builds/build-3dprinted-parts.pptx](builds/build-3dprinted-parts.pptx)
+ - [builds/build-90V.docx](builds/build-90V.docx)
+
+
 # Computer Files
 
  - [9-port-controller/9-port-controller.ino](9-port-controller/9-port-controller.ino)
