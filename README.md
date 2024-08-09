@@ -60,6 +60,10 @@ We present here an Arduino-based controller which allows experimenters to cheapl
  - [front-panel-center-bracket.STL](3dprint_files/front-panel-center-bracket.STL)
  - [arduino-bracket.STL](3dprint_files/arduino-bracket.STL)
  - [HV-DCDC-bracket.STL](3dprint_files/HV-DCDC-bracket.STL) 
+ - [arduino-bracket.SLDPRT](3dprint_files/arduino-bracket.SLDPRT)
+ - [front-panel-center-bracket.SLDPRT](3dprint_files/front-panel-center-bracket.SLDPRT)
+ - [arduino-bracket.SLDPRT](3dprint_files/arduino-bracket.SLDPRT)
+ - [HV-DCDC-bracket.SLDPRT](3dprint_files/HV-DCDC-bracket.SLDPRT) 
 
 # Machining Files
 
