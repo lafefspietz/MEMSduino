@@ -8,8 +8,8 @@
 // It is very important to change this based on if you have a Mega or UNO, since the A5 pin maps to different digital output pins
 // A5 maps to 19 on the UNO and 59 on the Mega  
 
-#define PIN 59 // MEGA 
-//#define PIN 19 // UNO
+//#define PIN 59 // MEGA 
+#define PIN 19 // UNO
 
 // How many NeoPixels are attached to the Arduino?
 #define NUMPIXELS 6 // 
