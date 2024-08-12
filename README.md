@@ -1,8 +1,6 @@
 # [MEMSduino: Arduino-Based Controller for MEMS Switches](https://github.com/lafefspietz/MEMSduino/)
 
-# Visual Abstract
-
-#Abstract
+![](visual-abstract.png)
 
 # Background
 
