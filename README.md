@@ -27,7 +27,6 @@ We present here an Arduino-based controller which allows experimenters to cheapl
  - 3d printed parts
  - Arduino shield board
  - DB 25 and relay breakout board
- - 0.1 inch pitch header cables
  - DC DC Converter to 90 volts
  - DB25 to Fischer cable
  - MicroD breakout board
@@ -94,12 +93,28 @@ We present here an Arduino-based controller which allows experimenters to cheapl
 
 # Build Files
 
+ - [builds/build-whole-system.pdf](builds/build-whole-system.pdf)
+ - [builds/build-3dprinted-parts.pdf](builds/build-3dprinted-parts.pdf)
+ - [builds/build-90V.pdf](builds/build-90V.pdf)
+ - [builds/Arduino.pdf](builds/Arduino.pdf)
+ - [builds/build-DB25-relay-HV-control.pdf](builds/build-DB25-relay-HV-control.pdf)
+ - [builds/build-Front-Panel-Boards.pdf](builds/build-Front-Panel-Boards.pdf)
+ - [builds/build-cold-board-mount-brackets.pdf](builds/build-cold-board-mount-brackets.pdf)
+ - [builds/build-cold-microD-breakout.pdf](builds/build-cold-microD-breakout.pdf)
+ - [builds/build-wood-board.pdf](builds/build-wood-board.pdf)
+ - [builds/build-shield.pdf](builds/build-shield.pdf)
+ - [builds/build-bud-box.pdf](builds/build-bud-box.pdf)
+ - [builds/build-whole-system.pptx](builds/build-whole-system.pptx)
  - [builds/build-3dprinted-parts.pptx](builds/build-3dprinted-parts.pptx)
  - [builds/build-90V.docx](builds/build-90V.docx)
- - []
- - []
- - []
- - []
+ - [builds/Arduino.pptx](builds/Arduino.pptx)
+ - [builds/build-DB25-relay-HV-control.pptx](builds/build-DB25-relay-HV-control.pptx)
+ - [builds/build-Front-Panel-Boards.pptx](builds/build-Front-Panel-Boards.pptx)
+ - [builds/build-cold-board-mount-brackets.pptx](builds/build-cold-board-mount-brackets.pptx)
+ - [builds/build-cold-microD-breakout.pptx](builds/build-cold-microD-breakout.pptx)
+ - [builds/build-wood-board.pptx](builds/build-wood-board.pptx)
+ - [builds/build-shield.pptx](builds/build-shield.pptx)
+ - [builds/build-bud-box.pptx](builds/build-bud-box.pptx)
 
 
 # Computer Files
@@ -109,8 +124,6 @@ We present here an Arduino-based controller which allows experimenters to cheapl
  - [6_port_controller_NIST_detector/6_port_controller_NIST_detector.ino](6_port_controller_NIST_detector/6_port_controller_NIST_detector.ino)
  - [matlab/switch_control.m](matlab/switch_control.m)
  - [jupyter/switch_control.ipynb](jupyter/switch_control.ipynb)
-
-
 
 
 # Control Panel PCB
