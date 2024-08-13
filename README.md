@@ -17,20 +17,21 @@ As companies create commercial products based on these MEMS switches, they can b
 
 We present here an Arduino-based controller which allows experimenters to cheaply and easily control MEMS-based switches in a dilution refrigerator.  
 
-# Elements
+# System Elements
 
- - Control Panel PCB
- - BUD Box
- - Wood Rack Mount Board
+ - MEMS-based cryogenic switches(SP9T, SP8T, SP6T, E-Cal)
+ - Control Software
+ - Wood rack panel
+ - Custom metal box
  - 3d printed parts
- - Arduino shield board
- - DB 25 and relay breakout board
- - DC DC Converter to 90 volts
+ - Arduino UNO
+ - Arduino shield circuit board
+ - Control panel circuit board
+ - DB 25 relay circuit board
+ - 5V to 90V boost
  - DB25 to Fischer cable
+ - Cryogenic mounting hardware
  - MicroD breakout board
- - Arduino Code
- - Python Control
- - Matlab Control
 
 # Circuit Board Files
 
