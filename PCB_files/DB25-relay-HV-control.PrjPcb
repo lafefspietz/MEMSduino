@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FUMYOCDN
 
 [Document3]
-DocumentPath=..\PcbLibLafe.PcbLib
+DocumentPath=PcbLibLafe.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -101,7 +101,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=..\SchlibLafe.SchLib
+DocumentPath=SchlibLafe.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
