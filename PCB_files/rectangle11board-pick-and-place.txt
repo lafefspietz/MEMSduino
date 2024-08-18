@@ -1,0 +1,47 @@
+Altium Designer Pick and Place Locations
+Z:\lafe\MEMS switches\pcb layout\rectangle11pcb\mems-switches-rectangle11\Project Outputs for mems-switches-rectangle11\Pick Place for rectangle11board.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       10/06/24
+Time:       13:18
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator  Comment                          Layer    Footprint                Center-X(mil) Center-Y(mil) Rotation Description                                                                                                  
+Designator4 Comment                          TopLayer NIST_logo_-_TopOverlay   -4724.409     -1220.472     90       ""                                                                                                           
+0           Fiducial                         TopLayer fiducial                 118.110       2480.315      90       ""                                                                                                           
+""          Fiducial                         TopLayer fiducial                 1614.173      2480.315      0        ""                                                                                                           
+""          Fiducial                         TopLayer fiducial                 118.110       118.110       0        ""                                                                                                           
+J14         TSW-104-07-G-S                   TopLayer SAMTEC_TSW-104-07-G-S    175.000       1725.000      270      "<a href="https://pricing.snapeda.com/parts/TSW-104-07-G-S/Samtec/view-part?ref=eda">Check availability</a>" 
+J13         TSW-104-07-G-S                   TopLayer SAMTEC_TSW-104-07-G-S    875.197       2425.197      180      "<a href="https://pricing.snapeda.com/parts/TSW-104-07-G-S/Samtec/view-part?ref=eda">Check availability</a>" 
+J11         TSW-104-07-G-S                   TopLayer SAMTEC_TSW-104-07-G-S    867.323       169.291       0        "<a href="https://pricing.snapeda.com/parts/TSW-104-07-G-S/Samtec/view-part?ref=eda">Check availability</a>" 
+R12         "TE connectivity CPF0201B56K2E1" TopLayer 0201-resistor            420.952       2271.614      180      "CPF 0201 56K2 0.1% 25PPM 1K RL"                                                                             
+R11         "TE connectivity CPF0201B56K2E1" TopLayer 0201-resistor            327.475       2153.151      270      "CPF 0201 56K2 0.1% 25PPM 1K RL"                                                                             
+R10         "TE connectivity CPF0201B56K2E1" TopLayer 0201-resistor            1286.347      2272.119      0        "CPF 0201 56K2 0.1% 25PPM 1K RL"                                                                             
+R9          "TE connectivity CPF0201B56K2E1" TopLayer 0201-resistor            445.697       1732.284      0        "CPF 0201 56K2 0.1% 25PPM 1K RL"                                                                             
+R8          "TE connectivity CPF0201B56K2E1" TopLayer 0201-resistor            866.142       1311.811      90       "CPF 0201 56K2 0.1% 25PPM 1K RL"                                                                             
+R7          "TE connectivity CPF0201B56K2E1" TopLayer 0201-resistor            1409.407      2177.651      90       "CPF 0201 56K2 0.1% 25PPM 1K RL"                                                                             
+R6          "TE connectivity CPF0201B56K2E1" TopLayer 0201-resistor            1405.512      1312.008      270      "CPF 0201 56K2 0.1% 25PPM 1K RL"                                                                             
+R5          "TE connectivity CPF0201B56K2E1" TopLayer 0201-resistor            1409.449      444.882       270      "CPF 0201 56K2 0.1% 25PPM 1K RL"                                                                             
+R4          "TE connectivity CPF0201B56K2E1" TopLayer 0201-resistor            446.063       866.142       180      "CPF 0201 56K2 0.1% 25PPM 1K RL"                                                                             
+R3          "TE connectivity CPF0201B56K2E1" TopLayer 0201-resistor            1312.008      325.787       180      "CPF 0201 56K2 0.1% 25PPM 1K RL"                                                                             
+R2          "TE connectivity CPF0201B56K2E1" TopLayer 0201-resistor            446.063       326.772       0        "CPF 0201 56K2 0.1% 25PPM 1K RL"                                                                             
+R1          "TE connectivity CPF0201B56K2E1" TopLayer 0201-resistor            326.772       420.276       270      "CPF 0201 56K2 0.1% 25PPM 1K RL"                                                                             
+J5          SMP-right-angle-19S201-40ML5     TopLayer rosenberger-19S201-40ML5 1566.929      1299.213      270      "SMOOTH BORE SMP Connector Plug, Male Pin 50Ohm Surface Mount Solder"                                        
+U4          MM5130*                          TopLayer MM5130-NORM_PCB_NOFLOOD  433.071       1299.213      135      "High power SP4T MEMs switch"                                                                                
+J10         SMP-right-angle-19S201-40ML5     TopLayer rosenberger-19S201-40ML5 165.354       1299.213      90       "SMOOTH BORE SMP Connector Plug, Male Pin 50Ohm Surface Mount Solder"                                        
+J9          SMP-right-angle-19S201-40ML5     TopLayer rosenberger-19S201-40ML5 165.354       2165.354      90       "SMOOTH BORE SMP Connector Plug, Male Pin 50Ohm Surface Mount Solder"                                        
+J8          SMP-right-angle-19S201-40ML5     TopLayer rosenberger-19S201-40ML5 433.071       2433.071      0        "SMOOTH BORE SMP Connector Plug, Male Pin 50Ohm Surface Mount Solder"                                        
+J7          SMP-right-angle-19S201-40ML5     TopLayer rosenberger-19S201-40ML5 1299.213      2433.071      0        "SMOOTH BORE SMP Connector Plug, Male Pin 50Ohm Surface Mount Solder"                                        
+J6          SMP-right-angle-19S201-40ML5     TopLayer rosenberger-19S201-40ML5 1566.929      2165.354      270      "SMOOTH BORE SMP Connector Plug, Male Pin 50Ohm Surface Mount Solder"                                        
+J4          SMP-right-angle-19S201-40ML5     TopLayer rosenberger-19S201-40ML5 1566.929      433.071       270      "SMOOTH BORE SMP Connector Plug, Male Pin 50Ohm Surface Mount Solder"                                        
+J3          SMP-right-angle-19S201-40ML5     TopLayer rosenberger-19S201-40ML5 1299.213      165.354       180      "SMOOTH BORE SMP Connector Plug, Male Pin 50Ohm Surface Mount Solder"                                        
+J2          SMP-right-angle-19S201-40ML5     TopLayer rosenberger-19S201-40ML5 433.071       165.354       180      "SMOOTH BORE SMP Connector Plug, Male Pin 50Ohm Surface Mount Solder"                                        
+J1          SMP-right-angle-19S201-40ML5     TopLayer rosenberger-19S201-40ML5 165.354       433.071       90       "SMOOTH BORE SMP Connector Plug, Male Pin 50Ohm Surface Mount Solder"                                        
+J12         TSW-104-07-G-S                   TopLayer SAMTEC_TSW-104-07-G-S    1574.803      863.386       270      "<a href="https://pricing.snapeda.com/parts/TSW-104-07-G-S/Samtec/view-part?ref=eda">Check availability</a>" 
+U3          MM5130*                          TopLayer MM5130-NORM_PCB_NOFLOOD  433.071       2165.354      225      "High power SP4T MEMs switch"                                                                                
+U2          MM5130*                          TopLayer MM5130-NORM_PCB_NOFLOOD  1299.213      1299.213      135      "High power SP4T MEMs switch"                                                                                
+U1          MM5130*                          TopLayer MM5130-NORM_PCB_NOFLOOD  433.071       433.071       45       "High power SP4T MEMs switch"                                                                                
