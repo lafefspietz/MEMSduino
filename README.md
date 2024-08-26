@@ -76,11 +76,11 @@ We present here an Arduino-based controller which allows experimenters to cheapl
 
 # Circuit Board Drawings
 
-![](9button-9neopixel-drawing.png)
-![](8button-8neopixel-drawing.png)
-![](6button-6neopixel-drawing.png)
-![](microd-header-adapter-board-drawing.png)
-![](rectangle11board-drawing.png)
+![](PCB_files/9button-9neopixel-drawing.png)
+![](PCB_files/8button-8neopixel-drawing.png)
+![](PCB_files/6button-6neopixel-drawing.png)
+![](PCB_files/microd-header-adapter-board-drawing.png)
+![](PCB_files/rectangle11board-drawing.png)
 
 # 3d Print Files
 
@@ -93,32 +93,49 @@ We present here an Arduino-based controller which allows experimenters to cheapl
  - [arduino-bracket.SLDPRT](3dprint_files/arduino-bracket.SLDPRT)
  - [HV-DCDC-bracket.SLDPRT](3dprint_files/HV-DCDC-bracket.SLDPRT) 
 
+![](3dprint_files/arduino-bracket-drawing1.png)
+![](3dprint_files/arduino-bracket-drawing2.png)
+![](3dprint_files/front-panel-center-bracket-drawing.png)
+![](3dprint_files/front-panel-edge-bracket-drawing.png)
+![](3dprint_files/HV-DCDC-bracket-drawing.png)
+
+
 # Machining Files
 
 
- - [.pdf drawing for Box](machining_files/AN-1304-A-lid-machined.pdf)
- - [SolidWorks part file for Box](machining_files/AN-1304-A-lid-machined.SLDPRT)
- - [SolidWorks drawing file for Box](machining_files/AN-1304-A-lid-machined.SLDDRW)
- - [STEP file for Box](machining_files/AN-1304-A-lid-machined.STEP)
- - [.pdf drawing file for lid](machining_files/AN-1304-A-machined-box.pdf)
- - [SolidWorks part file for lid](machining_files/AN-1304-A-machined-box.SLDPRT)
- - [SolidWorks drawing file for lid](machining_files/AN-1304-A-machined-box.SLDDRW)
- - [STEP file for lid](machining_files/AN-1304-A-machined-box.STEP)
- - [center-block-outside.pdf](machining_files/center-block-outside.pdf)
- - [center-block-outside.SLDDRW](machining_files/center-block-outside.SLDDRW)
- - [center-block-outside.SLDPRT](machining_files/center-block-outside.SLDPRT)
- - [center-block-v2.pdf](machining_files/center-block-v2.pdf)
- - [center-block-v2.SLDDRW](machining_files/center-block-v2.SLDDRW)
- - [center-block-v2.SLDPRT](machining_files/center-block-v2.SLDPRT)
- - [HBracket-M4.pdf](machining_files/HBracket-M4.pdf)
- - [HBracket-M4.SLDDRW](machining_files/HBracket-M4.SLDDRW)
- - [HBracket-M4.SLDPRT](machining_files/HBracket-M4.SLDPRT)
- - [standoff.pdf](machining_files/standoff.pdf)
- - [standoff.SLDDRW](machining_files/standoff.SLDDRW)
- - [standoff.SLDPRT](machining_files/standoff.SLDPRT)
- - [rack-mount-board.pdf](machining_files/rack-mount-board.pdf)
- - [rack-mount-board.SLDDRW](machining_files/rack-mount-board.SLDDRW)
- - [rack-mount-board.SLDPRT](machining_files/rack-mount-board.SLDPRT)
+ - [.pdf Drawing for Box](machining_files/AN-1304-A-box-modifications.pdf)
+ - [SolidWorks part file for Box](machining_files/AN-1304-A-box-modifications.SLDPRT)
+ - [SolidWorks drawing file for Box](machining_files/AN-1304-A-box-modifications.SLDDRW)
+ - [STEP file for Box](machining_files/AN-1304-A-box-modifications.STEP)
+ - [.pdf Drawing for Lid](machining_files/AN-1304-A-lid-modifications.pdf)
+ - [SolidWorks part file for Lid](machining_files/AN-1304-A-lid-modifications.SLDPRT)
+ - [SolidWorks drawing file for Lid](machining_files/AN-1304-A-lid-modifications.SLDDRW)
+ - [STEP file for Lid](machining_files/AN-1304-A-lid-modifications.STEP)
+ - [.pdf Drawing for Outer Block](machining_files/outer-block.pdf)
+ - [outer-block.SLDDRW](machining_files/outer-block.SLDDRW)
+ - [outer-block.SLDPRT](machining_files/outer-block.SLDPRT)
+ - [.pdf Drawing for Center Block](machining_files/center-block.pdf)
+ - [SolidWorks Drawing for Center Block](machining_files/center-block.SLDDRW)
+ - [SolidWorks Part File for Center Block](machining_files/center-block.SLDPRT)
+ - [.pdf Drawing of H Bracket](machining_files/H-Bracket.pdf)
+ - [SolidWorks Drawing for H Bracket](machining_files/H-Bracket.SLDDRW)
+ - [SolidWorks Part File for H Bracket](machining_files/H-Bracket.SLDPRT)
+ - [.pdf Drawing for T stand](machining_files/T-stand.pdf)
+ - [SolidWorks Drawing File for T stand](machining_files/T-stand.SLDDRW)
+ - [SolidWorks Part File for T Stand](machining_files/T-stand.SLDPRT)
+ - [.pdf for Rack Mount Wood Board](machining_files/rack-mount-board.pdf)
+ - [SolidWorks Drawing File for Rack Mount Wood Board](machining_files/rack-mount-board.SLDDRW)
+ - [SolidWorks Part File for Rack Mount Wood Board](machining_files/rack-mount-board.SLDPRT)
+
+![](machining_files/box-drawing.png)
+![](machining_files/lid-drawing.png)
+![](machining_files/outer-block-drawing.png)
+![](machining_files/center-block-drawing.png)
+![](machining_files/H-bracket-drawing.png)
+![](machining_files/T-stand-drawing.png)
+![](machining_files/rack-mount-board-drawing.png)
+
+
 
 # Build Files
 
