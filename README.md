@@ -19,6 +19,8 @@ We present here an Arduino-based controller which allows experimenters to cheapl
 
 # System Elements
 
+## [bill of materials (.xlsx)](BOM.xlsx)
+
  - MEMS-based cryogenic switches(SP9T, SP8T, SP6T, E-Cal)
  - Control Software
  - Wood rack panel
@@ -32,6 +34,48 @@ We present here an Arduino-based controller which allows experimenters to cheapl
  - DB25 to Fischer cable
  - Cryogenic mounting hardware
  - MicroD breakout board
+
+
+# System Build Steps
+
+1. Cut the wood board and drill out the holes in it
+2. Machine out the Bud box if you are not getting that done by a shop
+3. Print the 3d printed parts and add thread inserts
+4. Assemble shield board
+5. Assemble DC DC converter System, set the voltage with the potentiometer and test
+6. Assemble DB25 relay board other than the DB25 connector
+7. Put the DB25 connector into the lid, add insulating tape to the lid, and finish the assembly
+8. Finish the whole assembly of the BUD box, the Front Panel board, the Arduino mount, Arduino, Arduino shield, and cables
+9. Connect Arduino UNO, program it, and test it
+10. Assemble the DC cold control board
+11. Machine the brass parts for the cryogenic assembly
+11. Assemble the assembly
+
+
+# Build Files
+
+ - [builds/build-whole-system.pdf](builds/build-whole-system.pdf)
+ - [builds/build-3dprinted-parts.pdf](builds/build-3dprinted-parts.pdf)
+ - [builds/build-90V.pdf](builds/build-90V.pdf)
+ - [builds/Arduino.pdf](builds/Arduino.pdf)
+ - [builds/build-DB25-relay-HV-control.pdf](builds/build-DB25-relay-HV-control.pdf)
+ - [builds/build-Front-Panel-Boards.pdf](builds/build-Front-Panel-Boards.pdf)
+ - [builds/build-cold-board-mount-brackets.pdf](builds/build-cold-board-mount-brackets.pdf)
+ - [builds/build-cold-microD-breakout.pdf](builds/build-cold-microD-breakout.pdf)
+ - [builds/build-wood-board.pdf](builds/build-wood-board.pdf)
+ - [builds/build-shield.pdf](builds/build-shield.pdf)
+ - [builds/build-bud-box.pdf](builds/build-bud-box.pdf)
+ - [builds/build-whole-system.pptx](builds/build-whole-system.pptx)
+ - [builds/build-3dprinted-parts.pptx](builds/build-3dprinted-parts.pptx)
+ - [builds/build-90V.docx](builds/build-90V.docx)
+ - [builds/Arduino.pptx](builds/Arduino.pptx)
+ - [builds/build-DB25-relay-HV-control.pptx](builds/build-DB25-relay-HV-control.pptx)
+ - [builds/build-Front-Panel-Boards.pptx](builds/build-Front-Panel-Boards.pptx)
+ - [builds/build-cold-board-mount-brackets.pptx](builds/build-cold-board-mount-brackets.pptx)
+ - [builds/build-cold-microD-breakout.pptx](builds/build-cold-microD-breakout.pptx)
+ - [builds/build-wood-board.pptx](builds/build-wood-board.pptx)
+ - [builds/build-shield.pptx](builds/build-shield.pptx)
+ - [builds/build-bud-box.pptx](builds/build-bud-box.pptx)
 
 # Circuit Board Files
 
@@ -137,38 +181,19 @@ We present here an Arduino-based controller which allows experimenters to cheapl
 
 
 
-# Build Files
 
- - [builds/build-whole-system.pdf](builds/build-whole-system.pdf)
- - [builds/build-3dprinted-parts.pdf](builds/build-3dprinted-parts.pdf)
- - [builds/build-90V.pdf](builds/build-90V.pdf)
- - [builds/Arduino.pdf](builds/Arduino.pdf)
- - [builds/build-DB25-relay-HV-control.pdf](builds/build-DB25-relay-HV-control.pdf)
- - [builds/build-Front-Panel-Boards.pdf](builds/build-Front-Panel-Boards.pdf)
- - [builds/build-cold-board-mount-brackets.pdf](builds/build-cold-board-mount-brackets.pdf)
- - [builds/build-cold-microD-breakout.pdf](builds/build-cold-microD-breakout.pdf)
- - [builds/build-wood-board.pdf](builds/build-wood-board.pdf)
- - [builds/build-shield.pdf](builds/build-shield.pdf)
- - [builds/build-bud-box.pdf](builds/build-bud-box.pdf)
- - [builds/build-whole-system.pptx](builds/build-whole-system.pptx)
- - [builds/build-3dprinted-parts.pptx](builds/build-3dprinted-parts.pptx)
- - [builds/build-90V.docx](builds/build-90V.docx)
- - [builds/Arduino.pptx](builds/Arduino.pptx)
- - [builds/build-DB25-relay-HV-control.pptx](builds/build-DB25-relay-HV-control.pptx)
- - [builds/build-Front-Panel-Boards.pptx](builds/build-Front-Panel-Boards.pptx)
- - [builds/build-cold-board-mount-brackets.pptx](builds/build-cold-board-mount-brackets.pptx)
- - [builds/build-cold-microD-breakout.pptx](builds/build-cold-microD-breakout.pptx)
- - [builds/build-wood-board.pptx](builds/build-wood-board.pptx)
- - [builds/build-shield.pptx](builds/build-shield.pptx)
- - [builds/build-bud-box.pptx](builds/build-bud-box.pptx)
-
-
-# Computer Files
+# Arduino Code
 
  - [9-port-controller/9-port-controller.ino](9-port-controller/9-port-controller.ino)
  - [8_port_ecal_controller/8_port_ecal_controller.ino](8_port_ecal_controller/8_port_ecal_controller.ino)
  - [6_port_controller_NIST_detector/6_port_controller_NIST_detector.ino](6_port_controller_NIST_detector/6_port_controller_NIST_detector.ino)
+
+# Matlab Switch Control
+
  - [matlab/switch_control.m](matlab/switch_control.m)
+
+# Jupyter Notebook with Python Control
+
  - [jupyter/switch_control.ipynb](jupyter/switch_control.ipynb)
 
 
@@ -477,74 +502,7 @@ We use the 5 volt regulated supply on the Arduino UNO as a source for a pair of 
  - [8_port_ecal_controller/8_port_ecal_controller.ino](8_port_ecal_controller/8_port_ecal_controller.ino)
  - [6_port_controller_NIST_detector/6_port_controller_NIST_detector.ino](6_port_controller_NIST_detector/6_port_controller_NIST_detector.ino)
 
-# Matlab Code
 
- - [matlab/switch_control.m](matlab/switch_control.m)
-
-# Python Code
-
- - [jupyter/switch_control.ipynb](jupyter/switch_control.ipynb)
-
-# Total Bill of Materials
-
- - [$16.90 1 Arduino UNO](https://www.digikey.com/en/products/detail/dfrobot/DFR0216/6579366)
- - 9 Single Neopixel boards
- - 9 Buttons
- - 1 4"x24"x1/2" white oak board
- - 4 knurled thumb screws
- - wood screws
- - 4-40 Phillips screws
- - 4-40 cap screws(various sizes)
- - 3d printed arduino mounting bracket
- - 3d printed DC-DC converter mounting bracket
- - 3d printed edge bracket for front panel pcb
- - 3d printed middle bracket for front panel pcb
- - Brass thread inserts
- - front panel pcb
- - arduino shield board
- - DB 25 relay board
- - DC Micro-D breakout board
- - RF switch board
- - RF calibration board panel
- - Bud Box
- - DB25 to Fischer connector cable
- - Machined brass H bracket to mount to fridge mixing chamber plate
- - Machined brass H bracket standoff
- - Machined brass center block outside
- - Machined brass center block
- - hex standoffs
- - 5 volt to 12 volt DC DC converter
- - 12 volt to variable high voltage DC DC converter
- - 2 wire cables
- - 4 wire cables
- - 8 wire cables
- - DB25 connector
- - relays
- - 330 ohm resistors
- - 10 k resistors
- - 100 k resistors
- - 1 M resistors
- - 0.1" headers
- - Micro-D board mont connectors
- - 75 k resistors
- - 90 degree limited detent SMP
- - Straight smooth bore SMP
- - SMP barrels
-
-# Build Instructions
-
-1. Cut the wood board and drill out the holes in it
-2. Machine out the Bud box if you are not getting that done by a shop
-3. Print the 3d printed parts and add thread inserts
-4. Assemble shield board
-5. Assemble DC DC converter System, set the voltage with the potentiometer and test
-6. Assemble DB25 relay board other than the DB25 connector
-7. Put the DB25 connector into the lid, add insulating tape to the lid, and finish the assembly
-8. Finish the whole assembly of the BUD box, the Front Panel board, the Arduino mount, Arduino, Arduino shield, and cables
-9. Connect Arduino UNO, program it, and test it
-10. Assemble the DC cold control board
-11. Machine the brass parts for the cryogenic assembly
-11. Assemble the assembly
 
 
 
