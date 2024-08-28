@@ -52,30 +52,7 @@ We present here an Arduino-based controller which allows experimenters to cheapl
 11. Assemble the assembly
 
 
-# Build Files
 
- - [builds/build-whole-system.pdf](builds/build-whole-system.pdf)
- - [builds/build-3dprinted-parts.pdf](builds/build-3dprinted-parts.pdf)
- - [builds/build-90V.pdf](builds/build-90V.pdf)
- - [builds/Arduino.pdf](builds/Arduino.pdf)
- - [builds/build-DB25-relay-HV-control.pdf](builds/build-DB25-relay-HV-control.pdf)
- - [builds/build-Front-Panel-Boards.pdf](builds/build-Front-Panel-Boards.pdf)
- - [builds/build-cold-board-mount-brackets.pdf](builds/build-cold-board-mount-brackets.pdf)
- - [builds/build-cold-microD-breakout.pdf](builds/build-cold-microD-breakout.pdf)
- - [builds/build-wood-board.pdf](builds/build-wood-board.pdf)
- - [builds/build-shield.pdf](builds/build-shield.pdf)
- - [builds/build-bud-box.pdf](builds/build-bud-box.pdf)
- - [builds/build-whole-system.pptx](builds/build-whole-system.pptx)
- - [builds/build-3dprinted-parts.pptx](builds/build-3dprinted-parts.pptx)
- - [builds/build-90V.docx](builds/build-90V.docx)
- - [builds/Arduino.pptx](builds/Arduino.pptx)
- - [builds/build-DB25-relay-HV-control.pptx](builds/build-DB25-relay-HV-control.pptx)
- - [builds/build-Front-Panel-Boards.pptx](builds/build-Front-Panel-Boards.pptx)
- - [builds/build-cold-board-mount-brackets.pptx](builds/build-cold-board-mount-brackets.pptx)
- - [builds/build-cold-microD-breakout.pptx](builds/build-cold-microD-breakout.pptx)
- - [builds/build-wood-board.pptx](builds/build-wood-board.pptx)
- - [builds/build-shield.pptx](builds/build-shield.pptx)
- - [builds/build-bud-box.pptx](builds/build-bud-box.pptx)
 
 # Circuit Board Files
 
@@ -501,6 +478,33 @@ We use the 5 volt regulated supply on the Arduino UNO as a source for a pair of 
  - [9-port-controller/9-port-controller.ino](9-port-controller/9-port-controller.ino)
  - [8_port_ecal_controller/8_port_ecal_controller.ino](8_port_ecal_controller/8_port_ecal_controller.ino)
  - [6_port_controller_NIST_detector/6_port_controller_NIST_detector.ino](6_port_controller_NIST_detector/6_port_controller_NIST_detector.ino)
+
+
+# Build Files
+
+ - [builds/build-whole-system.pdf](builds/build-whole-system.pdf)
+ - [builds/build-3dprinted-parts.pdf](builds/build-3dprinted-parts.pdf)
+ - [builds/build-90V.pdf](builds/build-90V.pdf)
+ - [builds/Arduino.pdf](builds/Arduino.pdf)
+ - [builds/build-DB25-relay-HV-control.pdf](builds/build-DB25-relay-HV-control.pdf)
+ - [builds/build-Front-Panel-Boards.pdf](builds/build-Front-Panel-Boards.pdf)
+ - [builds/build-cold-board-mount-brackets.pdf](builds/build-cold-board-mount-brackets.pdf)
+ - [builds/build-cold-microD-breakout.pdf](builds/build-cold-microD-breakout.pdf)
+ - [builds/build-wood-board.pdf](builds/build-wood-board.pdf)
+ - [builds/build-shield.pdf](builds/build-shield.pdf)
+ - [builds/build-bud-box.pdf](builds/build-bud-box.pdf)
+ - [builds/build-whole-system.pptx](builds/build-whole-system.pptx)
+ - [builds/build-3dprinted-parts.pptx](builds/build-3dprinted-parts.pptx)
+ - [builds/build-90V.docx](builds/build-90V.docx)
+ - [builds/Arduino.pptx](builds/Arduino.pptx)
+ - [builds/build-DB25-relay-HV-control.pptx](builds/build-DB25-relay-HV-control.pptx)
+ - [builds/build-Front-Panel-Boards.pptx](builds/build-Front-Panel-Boards.pptx)
+ - [builds/build-cold-board-mount-brackets.pptx](builds/build-cold-board-mount-brackets.pptx)
+ - [builds/build-cold-microD-breakout.pptx](builds/build-cold-microD-breakout.pptx)
+ - [builds/build-wood-board.pptx](builds/build-wood-board.pptx)
+ - [builds/build-shield.pptx](builds/build-shield.pptx)
+ - [builds/build-bud-box.pptx](builds/build-bud-box.pptx)
+
 
 ## Disclaimer
 
