@@ -68,6 +68,7 @@ We present here an Arduino-based controller which allows experimenters to cheapl
  - [6button-6neopixel Altium Pcb File](PCB_files/6button-6neopixel.PcbDoc)
  - [6button-6neopixel Altium Project File](PCB_files/6button-6neopixel.PrjPcb)
  - [6button-6neopixel .zip of Gerber files](PCB_files/6button-6neopixel-gerbers.zip)
+ - [6button-6neopixel.pdf](PCB_files/6button-6neopixel.pdf)
  - [arduino-to-headers-shield Altium Schematic File](PCB_files/arduino-to-headers-shield.schDoc)
  - [arduino-to-headers-shield Altium Project File](PCB_files/arduino-to-headers-shield.PrjPcb)
  - [arduino-to-headers-shield Altium Pcb File ](PCB_files/arduino-to-headers-shield.PcbDoc)
