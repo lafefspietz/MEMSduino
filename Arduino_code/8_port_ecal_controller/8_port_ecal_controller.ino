@@ -5,7 +5,7 @@
 #endif
 
 // Which pin on the Arduino is connected to the NeoPixels?
-#define PIN 59 // On Trinket or Gemma, suggest changing this to 1
+#define PIN 59 //59 on the Mega
 
 // How many NeoPixels are attached to the Arduino?
 #define NUMPIXELS 12 // 
@@ -17,30 +17,28 @@
 // strandtest example for more information on possible values.
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
-#define SP8T_1 2
-#define SP8T_2 3
-#define SP8T_3 4
-#define SP8T_4 5
-
-#define SP8T_5 6
-#define SP8T_6 7
-#define SP8T_7 8
+#define SP8T_1 3
+#define SP8T_2 7
+#define SP8T_3 6
+#define SP8T_4 2
+#define SP8T_5 8
+#define SP8T_6 4
+#define SP8T_7 5
 #define SP8T_8 9
 
-#define NOT_SP8T_1 10
-#define NOT_SP8T_2 11
-#define NOT_SP8T_3 12
-#define NOT_SP8T_4 13
+#define NOT_SP8T_1 4
+#define NOT_SP8T_2 5
+#define NOT_SP8T_3 10
+#define NOT_SP8T_4 11
+#define NOT_SP8T_5 12
+#define NOT_SP8T_6 13
+#define NOT_SP8T_7 56
+#define NOT_SP8T_8 57
 
-#define NOT_SP8T_5 14
-#define NOT_SP8T_6 15
-#define NOT_SP8T_7 16
-#define NOT_SP8T_8 17
-
-#define ECAL_SHORT 30
-#define ECAL_LOAD 32
-#define ECAL_1234 34
-#define ECAL_5678 36
+#define ECAL_SHORT 34
+#define ECAL_LOAD 36
+#define ECAL_1234 32
+#define ECAL_5678 30
 
 int analog = 0;
 int analogEcal = 0;
@@ -50,7 +48,7 @@ int modeEcal = 4;//modes are 1,2,3,4 which are pixel 3,2,1, and 0 respectively. 
 
 
 void setup() {
-    Serial.begin(115200);
+    Serial.begin(9600);
 
 
   // These lines are specifically to support the Adafruit Trinket 5V 16 MHz.
