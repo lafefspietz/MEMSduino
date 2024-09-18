@@ -46,6 +46,14 @@ Open source system for controlling MEMS switches using an Arduino.
  - [pogo_socket_2port.PcbDoc](pcb/pogo_socket_2port.PcbDoc)
  - [pogo_socket_6port.PcbDoc](pcb/pogo_socket_6port.PcbDoc)
  - [cal-boards-zip.zip](pcb/cal-boards-zip.zip)
+ - [SP8T_ecal.PcbDoc](pcb/SP8T_ecal.PcbDoc)
+ - [SP8T_ecal.PrjPcb](pcb/SP8T_ecal.PrjPcb)
+ - [SP8T_ecal.PrjPcbStructure](pcb/SP8T_ecal.PrjPcbStructure)
+ - [SP8T_ecal.SchDoc_1](pcb/SP8T_ecal_1.SchDoc)
+ - [SP8T_ecal.SchDoc_2](pcb/SP8T_ecal_2.SchDoc)
+ - [SP8T_ecal.SchDoc_3](pcb/SP8T_ecal_3.SchDoc)
+ - [SP8T_ecal_BOM.xlsx](pcb/SP8T_ecal_BOM.xlsx)
+
 
 # Circuit Board Drawings
 
