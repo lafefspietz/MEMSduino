@@ -1,8 +1,28 @@
 # [MEMSduino: Arduino-Based Controller for MEMS Switches](https://github.com/lafefspietz/MEMSduino/)
 
-Open source system for controlling MEMS switches using an Arduino.
+Open source system for controlling MEMS switches using an Arduino.  This system allows for both serial control via software and physical control by a human operator with buttons and indicator lights of a range of possible MEMS switch configurations.  A set of relays are controlled by the Arduino, which determines which of the lines on a DSUB connector are energized with a 90 volt signal.  This DSUB can then be connected to any cryogenic wiring which leads to the various DC control lines of a cryogenic MEMS RF switch.  
 
 ## [System Bill of Materials](BOM.xlsx)
+
+
+## Disclaimer
+
+Certain equipment, instruments, software, or materials are identified in this document in order to specify the experimental procedure adequately.  Such identification is not intended to imply recommendation or endorsement of any product or service by NIST, nor is it intended to imply that the materials or equipment identified are necessarily the best available for the purpose.
+
+
+## MEMSduino Build Sequence
+
+1. Cut wood board and drill holes in it
+2. Cut out holes and D Sub Cutout in BUD box, mount DSUB into D cutout with 4-40 standoffs, mount to wood with long 4-40 screws
+3. 3d print all 3d printed parts and add heat-pressed thread inserts
+4. Screw all brackets to the wood board except for the HV-DCDC-bracket.STL, which is screwed to the inside of the BUD box.
+5. Assemble Arduino UNO Shield board (arduino-to-headers-shield)
+6. Mount the Arduino UNO to the 3d printed Arduino mounting bracket with 4-40 screws and plug the shield into the UNO
+6. Assemble Relay control board (DB25-relay-HV-control), solder to captive DSUB connector in the lid of BUD box
+7. Assemble the DC DC converter as needed to get to 90 volts or install an off the shelf converter in the BUD box, mount the board to the board mount bracket.
+8. Assemble front panel control circuit board, mount it to the plastic brackets on the wood board
+9. Connect all the cables, test system
+
 
 # Circuit Board Files
 
@@ -143,10 +163,6 @@ Open source system for controlling MEMS switches using an Arduino.
 
  - [jupyter/switch_control.ipynb](jupyter/switch_control.ipynb)
 
-## Disclaimer
-
-
-Certain equipment, instruments, software, or materials are identified in this document in order to specify the experimental procedure adequately.  Such identification is not intended to imply recommendation or endorsement of any product or service by NIST, nor is it intended to imply that the materials or equipment identified are necessarily the best available for the purpose.
 
 
 ## License
