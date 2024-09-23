@@ -7,7 +7,7 @@
 *  Mode 0 sets all outputs to off, and mode -1 also sets them off but with a whimsical test pattern on the lights. Modes 1 through 6 
 *  set the switch into states from RF 1 through RF 6. 
 *
-*
+*  Lafe Spietz, NIST, 2024
 */
 
 #include <Adafruit_NeoPixel.h>
@@ -105,6 +105,9 @@ void loop() {
   //  is connected to the analog pin, which tests which button is pressed.
   // We check again after a milisecond to make sure the button state 
   // is stable and is not part of a transient signal.
+  // There are two if statements for each value to ensure that the user has 
+  // held the button in that state for at least a millisecond, 
+  // in order to prevent responding to transient signal values
 
   if(analog > 1024 - delta){
     delay(1);
@@ -156,7 +159,7 @@ void loop() {
     }
   }
 
-  if(analog > 188 - delta && analog < 188 + delta){
+  if(analog > 188 - delta && analog < 188 + delta){//press 6 and 5 at the same time to initiate this test state
      analog = analogRead(A4);
      mode = -1;    
   }
@@ -166,7 +169,6 @@ void loop() {
 
     //read serial as ascii integer
      int ser = Serial.read();
-    //    Serial.println(ser);
      if(ser == 48){    //ASCII for 0
       mode = 0;
      }    
@@ -382,6 +384,5 @@ void loop() {
   pixels.show();   // Send the updated pixel colors to the hardware.
   delay(1); // Pause before next pass through loop
 
-    Serial.println(analog);//for debugging
 
 }

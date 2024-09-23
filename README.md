@@ -23,6 +23,51 @@ Certain equipment, instruments, software, or materials are identified in this do
 8. Assemble front panel control circuit board, mount it to the plastic brackets on the wood board
 9. Connect all the cables, test system
 
+# Wood Files
+
+ - [.pdf for Rack Mount Wood Board](wood/rack-mount-board.pdf)
+ - [SolidWorks Drawing File for Rack Mount Wood Board](wood/rack-mount-board.SLDDRW)
+ - [SolidWorks Part File for Rack Mount Wood Board](wood/rack-mount-board.SLDPRT)
+ - [.pdf for Rack Mount Wood Board for SP6T](wood/rack-mount-board-SP6T.pdf)
+ - [SolidWorks Drawing File for Rack Mount Wood Board](wood/rack-mount-board-SP6T.SLDDRW)
+ - [SolidWorks Part File for Rack Mount Wood Board](wood/rack-mount-board-SP6T.SLDPRT)
+
+# Wood Drawings
+
+![](wood/rack-mount-board-drawing.png)
+![](wood/rack-mount-board-SP6T-drawing.png)
+
+# Wood Assembly Instructions
+
+ 1. Purchase [4"x24"x1/2" white oak boards](https://ocoochhardwoods.com/detail/?i=124wo)($5.40)
+ 2. Cut down to 19 inches long
+ 3. Print out second page of [.pdf for Rack Mount Wood Board for SP6T](wood/rack-mount-board-SP6T.pdf) for SP6T or [.pdf for Rack Mount Wood Board](wood/rack-mount-board.pdf) for SP9T, cut out along solid lines, and tape together along center dotted line
+ 4. Use cut out template to punch locations of all holes through the paper into the wood
+ 5. Drill out all the holes, and drill multiple holes and then rotate the drill around to cut out the elongated slot 
+ 6. Check alignment of holes and drill out larger any holes which are slightly off
+
+# Diecast Aluminum Enclosure Machining Files
+
+ - [.pdf Drawing for Box](machining/AN-1304-A-box-modifications.pdf)
+ - [SolidWorks part file for Box](machining/AN-1304-A-box-modifications.SLDPRT)
+ - [SolidWorks drawing file for Box](machining/AN-1304-A-box-modifications.SLDDRW)
+ - [STEP file for Box](machining/AN-1304-A-box-modifications.STEP)
+ - [.pdf Drawing for Lid](machining/AN-1304-A-lid-modifications.pdf)
+ - [SolidWorks part file for Lid](machining/AN-1304-A-lid-modifications.SLDPRT)
+ - [SolidWorks drawing file for Lid](machining/AN-1304-A-lid-modifications.SLDDRW)
+ - [STEP file for Lid](machining/AN-1304-A-lid-modifications.STEP)
+
+![](machining/box-drawing.png)
+![](machining/lid-drawing.png)
+
+# Diecast Aluminum Enclosure Assembly Instructions
+
+ - Purchase [AN-1304-A](https://www.digikey.com/en/products/detail/bud-industries/AN-1304-A/5804538) box and lid ($14.90)
+ - Either get it machined by a shop using the .pdf and STEP files to order or
+ - Gather a 4-40 tap, #43 drill, 1/8" end mill, 3/8" end mill, center drill, and machine it all out yourself using the .pdf plans for the [box](machining/AN-1304-A-box-modifications.pdf) and [lid](machining/AN-1304-A-lid-modifications.pdf).
+ - Purchase [4-40  3/16"  long hex standoffs](https://www.mcmaster.com/91075A462/)(2x3.16 = $6.32) and [DSUB connector](https://www.digikey.com/en/products/detail/assmann-wsw-components/A-DF-25-PP-Z/1241794)($1.17) and screw connector to lid using standoffs.
+
+
 
 # Circuit Board Files
 
@@ -105,14 +150,6 @@ Certain equipment, instruments, software, or materials are identified in this do
 
 # Machining Files
 
- - [.pdf Drawing for Box](machining/AN-1304-A-box-modifications.pdf)
- - [SolidWorks part file for Box](machining/AN-1304-A-box-modifications.SLDPRT)
- - [SolidWorks drawing file for Box](machining/AN-1304-A-box-modifications.SLDDRW)
- - [STEP file for Box](machining/AN-1304-A-box-modifications.STEP)
- - [.pdf Drawing for Lid](machining/AN-1304-A-lid-modifications.pdf)
- - [SolidWorks part file for Lid](machining/AN-1304-A-lid-modifications.SLDPRT)
- - [SolidWorks drawing file for Lid](machining/AN-1304-A-lid-modifications.SLDDRW)
- - [STEP file for Lid](machining/AN-1304-A-lid-modifications.STEP)
  - [.pdf Drawing for Outer Block](machining/outer-block.pdf)
  - [outer-block.SLDDRW](machining/outer-block.SLDDRW)
  - [outer-block.SLDPRT](machining/outer-block.SLDPRT)
@@ -128,26 +165,12 @@ Certain equipment, instruments, software, or materials are identified in this do
 
 # Machining Drawings
 
-![](machining/box-drawing.png)
-![](machining/lid-drawing.png)
 ![](machining/outer-block-drawing.png)
 ![](machining/center-block-drawing.png)
 ![](machining/H-bracket-drawing.png)
 ![](machining/T-stand-drawing.png)
 
-# Wood Files
 
- - [.pdf for Rack Mount Wood Board](wood/rack-mount-board.pdf)
- - [SolidWorks Drawing File for Rack Mount Wood Board](wood/rack-mount-board.SLDDRW)
- - [SolidWorks Part File for Rack Mount Wood Board](wood/rack-mount-board.SLDPRT)
- - [.pdf for Rack Mount Wood Board](wood/rack-mount-board-SP6T.pdf)
- - [SolidWorks Drawing File for Rack Mount Wood Board](wood/rack-mount-board-SP6T.SLDDRW)
- - [SolidWorks Part File for Rack Mount Wood Board](wood/rack-mount-board-SP6T.SLDPRT)
-
-# Wood Drawings
-
-![](wood/rack-mount-board-drawing.png)
-![](wood/rack-mount-board-SP6T-drawing.png)
 
 # Arduino Code
 

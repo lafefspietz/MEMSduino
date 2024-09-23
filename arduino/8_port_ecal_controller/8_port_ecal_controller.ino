@@ -5,11 +5,10 @@
 #endif
 
 // Which pin on the Arduino is connected to the NeoPixels?
-#define PIN 59 //59 on the Mega
+#define PIN 59 //59 on the Mega. the Mega must be used for this mode of operation, as the UNO lacks the required number of output pins
 
 // How many NeoPixels are attached to the Arduino?
-#define NUMPIXELS 12 // 
-//there are 9
+#define NUMPIXELS 12 // 8 switch positions for SP8T plus 4 positions for short, open, load and thru
 
 // When setting up the NeoPixel library, we tell it how many pixels,  
 // and which pin to use to send signals. Note that for older NeoPixel
@@ -17,6 +16,8 @@
 // strandtest example for more information on possible values.
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
+
+//the Arduino pins which mapt to the various switch states in the "level 2" switches
 #define SP8T_1 3
 #define SP8T_2 7
 #define SP8T_3 6
@@ -26,6 +27,7 @@ Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 #define SP8T_7 5
 #define SP8T_8 9
 
+//arduino pins which map to the control lines for the "level 3" isolation switches
 #define NOT_SP8T_1 4
 #define NOT_SP8T_2 5
 #define NOT_SP8T_3 10
@@ -35,13 +37,14 @@ Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 #define NOT_SP8T_7 56
 #define NOT_SP8T_8 57
 
+//pins from the Arduino MEGA which control the positions of the "level 1" switch
 #define ECAL_SHORT 34
 #define ECAL_LOAD 36
 #define ECAL_1234 32
 #define ECAL_5678 30
 
-int analog = 0;
-int analogEcal = 0;
+int analog = 0;// analog state variable of the button analog control line for the 1-8 switch state buttons, read from Analog pin A8
+int analogEcal = 0;// analog state variable of the button analog control line for the E-cal, read from analog pin A4
 int delta = 20;
 int mode = 1;//modes are 1,2,3,4,5,6,7,8 which are pixel 7,6,5,4,3,2,1, and 0 respectively
 int modeEcal = 4;//modes are 1,2,3,4 which are pixel 3,2,1, and 0 respectively. mode 1 is short, 2 is open, 3 is load, 4 is thru
