@@ -28,8 +28,8 @@ Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 #define SP8T_8 9
 
 //arduino pins which map to the control lines for the "level 3" isolation switches
-#define NOT_SP8T_1 4
-#define NOT_SP8T_2 5
+#define NOT_SP8T_1 14
+#define NOT_SP8T_2 15
 #define NOT_SP8T_3 10
 #define NOT_SP8T_4 11
 #define NOT_SP8T_5 12
