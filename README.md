@@ -10,6 +10,17 @@ Open source system for controlling MEMS switches using an Arduino.  This system 
 Certain equipment, instruments, software, or materials are identified in this document in order to specify the experimental procedure adequately.  Such identification is not intended to imply recommendation or endorsement of any product or service by NIST, nor is it intended to imply that the materials or equipment identified are necessarily the best available for the purpose.
 
 
+## MEMSduino Six Port COTS Commercial BOM
+
+ - 4-40 brass thread inserts
+ - BUD box
+ - long 4-40 brass hex head screws
+ - short 4-40 steel phillips screws
+
+## MEMSduino Six Port COTS Build Sequence
+
+ 1. 
+
 ## MEMSduino Build Sequence
 
 1. Cut wood board and drill holes in it
