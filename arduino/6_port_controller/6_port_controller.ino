@@ -117,14 +117,14 @@ void loop() {
     }
   }
   if(analog > 784 - delta && analog < 784 + delta){
-    delay(5);
+    delay(1);
     analog = analogRead(A4);
     if(analog > 784 - delta && analog < 784 + delta){
          mode = 2; 
     }
   }
   if(analog > 596 - delta && analog < 596 + delta){
-     delay(5);
+     delay(1);
      analog = analogRead(A4);
 
     if(analog > 596 - delta && analog < 596 + delta){
