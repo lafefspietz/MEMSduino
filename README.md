@@ -25,12 +25,12 @@ Certain equipment, instruments, software, or materials are identified in this do
 
 # Wood Files
 
- - [.pdf for Rack Mount Wood Board](wood/rack-mount-board.pdf)
- - [SolidWorks Drawing File for Rack Mount Wood Board](wood/rack-mount-board.SLDDRW)
- - [SolidWorks Part File for Rack Mount Wood Board](wood/rack-mount-board.SLDPRT)
- - [.pdf for Rack Mount Wood Board for SP6T](wood/rack-mount-board-SP6T.pdf)
- - [SolidWorks Drawing File for Rack Mount Wood Board](wood/rack-mount-board-SP6T.SLDDRW)
- - [SolidWorks Part File for Rack Mount Wood Board](wood/rack-mount-board-SP6T.SLDPRT)
+ - [.pdf for Rack Mount Wood Board](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/wood/rack-mount-board.pdf)
+ - [SolidWorks Drawing File for Rack Mount Wood Board](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/wood/rack-mount-board.SLDDRW)
+ - [SolidWorks Part File for Rack Mount Wood Board](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/wood/rack-mount-board.SLDPRT)
+ - [.pdf for Rack Mount Wood Board for SP6T](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/wood/rack-mount-board-SP6T.pdf)
+ - [SolidWorks Drawing File for Rack Mount Wood Board](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/wood/rack-mount-board-SP6T.SLDDRW)
+ - [SolidWorks Part File for Rack Mount Wood Board](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/wood/rack-mount-board-SP6T.SLDPRT)
 
 # Wood Drawings
 
