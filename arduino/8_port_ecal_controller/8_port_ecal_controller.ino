@@ -288,7 +288,14 @@ void loop() {
     pixels.setPixelColor(10, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(11, pixels.Color(100, 0, 100));    
 
-
+    digitalWrite(NOT_SP8T_1,HIGH);
+    digitalWrite(NOT_SP8T_2,HIGH);
+    digitalWrite(NOT_SP8T_3,HIGH);
+    digitalWrite(NOT_SP8T_4,HIGH);
+    digitalWrite(NOT_SP8T_5,HIGH);
+    digitalWrite(NOT_SP8T_6,HIGH);
+    digitalWrite(NOT_SP8T_7,HIGH);
+    digitalWrite(NOT_SP8T_8,HIGH);
 
     digitalWrite(SP8T_1,HIGH);
     digitalWrite(SP8T_2,LOW);
@@ -300,13 +307,6 @@ void loop() {
     digitalWrite(SP8T_8,LOW);
 
     digitalWrite(NOT_SP8T_1,LOW);
-    digitalWrite(NOT_SP8T_2,HIGH);
-    digitalWrite(NOT_SP8T_3,HIGH);
-    digitalWrite(NOT_SP8T_4,HIGH);
-    digitalWrite(NOT_SP8T_5,HIGH);
-    digitalWrite(NOT_SP8T_6,HIGH);
-    digitalWrite(NOT_SP8T_7,HIGH);
-    digitalWrite(NOT_SP8T_8,HIGH);
     
   }
   if(mode == 2){
@@ -320,6 +320,15 @@ void loop() {
     pixels.setPixelColor(10, pixels.Color(100, 0, 100));    
     pixels.setPixelColor(11, pixels.Color(0, 0, 0)); 
     
+    digitalWrite(NOT_SP8T_1,HIGH);
+    digitalWrite(NOT_SP8T_2,HIGH);
+    digitalWrite(NOT_SP8T_3,HIGH);
+    digitalWrite(NOT_SP8T_4,HIGH);
+    digitalWrite(NOT_SP8T_5,HIGH);
+    digitalWrite(NOT_SP8T_6,HIGH);
+    digitalWrite(NOT_SP8T_7,HIGH);
+    digitalWrite(NOT_SP8T_8,HIGH);
+
     digitalWrite(SP8T_1,LOW);
     digitalWrite(SP8T_2,HIGH);
     digitalWrite(SP8T_3,LOW);
@@ -329,14 +338,7 @@ void loop() {
     digitalWrite(SP8T_7,LOW);
     digitalWrite(SP8T_8,LOW);
 
-    digitalWrite(NOT_SP8T_1,HIGH);
     digitalWrite(NOT_SP8T_2,LOW);
-    digitalWrite(NOT_SP8T_3,HIGH);
-    digitalWrite(NOT_SP8T_4,HIGH);
-    digitalWrite(NOT_SP8T_5,HIGH);
-    digitalWrite(NOT_SP8T_6,HIGH);
-    digitalWrite(NOT_SP8T_7,HIGH);
-    digitalWrite(NOT_SP8T_8,HIGH);
   }
   if(mode == 3){
   
@@ -349,6 +351,15 @@ void loop() {
     pixels.setPixelColor(10, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(11, pixels.Color(0, 0, 0));    
         
+    digitalWrite(NOT_SP8T_1,HIGH);
+    digitalWrite(NOT_SP8T_2,HIGH);
+    digitalWrite(NOT_SP8T_3,HIGH);
+    digitalWrite(NOT_SP8T_4,HIGH);
+    digitalWrite(NOT_SP8T_5,HIGH);
+    digitalWrite(NOT_SP8T_6,HIGH);
+    digitalWrite(NOT_SP8T_7,HIGH);
+    digitalWrite(NOT_SP8T_8,HIGH);
+
     digitalWrite(SP8T_1,LOW);
     digitalWrite(SP8T_2,LOW);
     digitalWrite(SP8T_3,HIGH);
@@ -358,14 +369,8 @@ void loop() {
     digitalWrite(SP8T_7,LOW);
     digitalWrite(SP8T_8,LOW);
 
-    digitalWrite(NOT_SP8T_1,HIGH);
-    digitalWrite(NOT_SP8T_2,HIGH);
     digitalWrite(NOT_SP8T_3,LOW);
-    digitalWrite(NOT_SP8T_4,HIGH);
-    digitalWrite(NOT_SP8T_5,HIGH);
-    digitalWrite(NOT_SP8T_6,HIGH);
-    digitalWrite(NOT_SP8T_7,HIGH);
-    digitalWrite(NOT_SP8T_8,HIGH);
+
   }
   if(mode == 4){
 
@@ -378,6 +383,15 @@ void loop() {
     pixels.setPixelColor(10, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(11, pixels.Color(0, 0, 0)); 
 
+    digitalWrite(NOT_SP8T_1,HIGH);
+    digitalWrite(NOT_SP8T_2,HIGH);
+    digitalWrite(NOT_SP8T_3,HIGH);
+    digitalWrite(NOT_SP8T_4,HIGH);
+    digitalWrite(NOT_SP8T_5,HIGH);
+    digitalWrite(NOT_SP8T_6,HIGH);
+    digitalWrite(NOT_SP8T_7,HIGH);
+    digitalWrite(NOT_SP8T_8,HIGH);
+
     digitalWrite(SP8T_1,LOW);
     digitalWrite(SP8T_2,LOW);
     digitalWrite(SP8T_3,LOW);
@@ -387,14 +401,7 @@ void loop() {
     digitalWrite(SP8T_7,LOW);
     digitalWrite(SP8T_8,LOW);
 
-    digitalWrite(NOT_SP8T_1,HIGH);
-    digitalWrite(NOT_SP8T_2,HIGH);
-    digitalWrite(NOT_SP8T_3,HIGH);
     digitalWrite(NOT_SP8T_4,LOW);
-    digitalWrite(NOT_SP8T_5,HIGH);
-    digitalWrite(NOT_SP8T_6,HIGH);
-    digitalWrite(NOT_SP8T_7,HIGH);
-    digitalWrite(NOT_SP8T_8,HIGH);    
 
   }
   if(mode == 5){
@@ -408,6 +415,15 @@ void loop() {
     pixels.setPixelColor(10, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(11, pixels.Color(0, 0, 0));   
     
+    digitalWrite(NOT_SP8T_1,HIGH);
+    digitalWrite(NOT_SP8T_2,HIGH);
+    digitalWrite(NOT_SP8T_3,HIGH);
+    digitalWrite(NOT_SP8T_4,HIGH);
+    digitalWrite(NOT_SP8T_5,HIGH);
+    digitalWrite(NOT_SP8T_6,HIGH);
+    digitalWrite(NOT_SP8T_7,HIGH);
+    digitalWrite(NOT_SP8T_8,HIGH);
+
     digitalWrite(SP8T_1,LOW);
     digitalWrite(SP8T_2,LOW);
     digitalWrite(SP8T_3,LOW);
@@ -417,14 +433,7 @@ void loop() {
     digitalWrite(SP8T_7,LOW);
     digitalWrite(SP8T_8,LOW);
 
-    digitalWrite(NOT_SP8T_1,HIGH);
-    digitalWrite(NOT_SP8T_2,HIGH);
-    digitalWrite(NOT_SP8T_3,HIGH);
-    digitalWrite(NOT_SP8T_4,HIGH);
     digitalWrite(NOT_SP8T_5,LOW);
-    digitalWrite(NOT_SP8T_6,HIGH);
-    digitalWrite(NOT_SP8T_7,HIGH);
-    digitalWrite(NOT_SP8T_8,HIGH);
 
   }
   if(mode == 6){
@@ -440,6 +449,15 @@ void loop() {
     pixels.setPixelColor(10, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(11, pixels.Color(0, 0, 0)); 
 
+    digitalWrite(NOT_SP8T_1,HIGH);
+    digitalWrite(NOT_SP8T_2,HIGH);
+    digitalWrite(NOT_SP8T_3,HIGH);
+    digitalWrite(NOT_SP8T_4,HIGH);
+    digitalWrite(NOT_SP8T_5,HIGH);
+    digitalWrite(NOT_SP8T_6,HIGH);
+    digitalWrite(NOT_SP8T_7,HIGH);
+    digitalWrite(NOT_SP8T_8,HIGH);
+
     digitalWrite(SP8T_1,LOW);
     digitalWrite(SP8T_2,LOW);
     digitalWrite(SP8T_3,LOW);
@@ -449,14 +467,7 @@ void loop() {
     digitalWrite(SP8T_7,LOW);
     digitalWrite(SP8T_8,LOW);
 
-    digitalWrite(NOT_SP8T_1,HIGH);
-    digitalWrite(NOT_SP8T_2,HIGH);
-    digitalWrite(NOT_SP8T_3,HIGH);
-    digitalWrite(NOT_SP8T_4,HIGH);
-    digitalWrite(NOT_SP8T_5,HIGH);
     digitalWrite(NOT_SP8T_6,LOW);
-    digitalWrite(NOT_SP8T_7,HIGH);
-    digitalWrite(NOT_SP8T_8,HIGH);
 
   }
 
@@ -471,6 +482,15 @@ void loop() {
     pixels.setPixelColor(9, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(10, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(11, pixels.Color(0, 0, 0)); 
+
+    digitalWrite(NOT_SP8T_1,HIGH);
+    digitalWrite(NOT_SP8T_2,HIGH);
+    digitalWrite(NOT_SP8T_3,HIGH);
+    digitalWrite(NOT_SP8T_4,HIGH);
+    digitalWrite(NOT_SP8T_5,HIGH);
+    digitalWrite(NOT_SP8T_6,HIGH);
+    digitalWrite(NOT_SP8T_7,HIGH);
+    digitalWrite(NOT_SP8T_8,HIGH);
     
     digitalWrite(SP8T_1,LOW);
     digitalWrite(SP8T_2,LOW);
@@ -481,14 +501,7 @@ void loop() {
     digitalWrite(SP8T_7,HIGH);
     digitalWrite(SP8T_8,LOW);
 
-    digitalWrite(NOT_SP8T_1,HIGH);
-    digitalWrite(NOT_SP8T_2,HIGH);
-    digitalWrite(NOT_SP8T_3,HIGH);
-    digitalWrite(NOT_SP8T_4,HIGH);
-    digitalWrite(NOT_SP8T_5,HIGH);
-    digitalWrite(NOT_SP8T_6,HIGH);
     digitalWrite(NOT_SP8T_7,LOW);
-    digitalWrite(NOT_SP8T_8,HIGH);
  }
   if(mode == 8){
     
@@ -500,7 +513,16 @@ void loop() {
     pixels.setPixelColor(9, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(10, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(11, pixels.Color(0, 0, 0)); 
-        
+
+    digitalWrite(NOT_SP8T_1,HIGH);
+    digitalWrite(NOT_SP8T_2,HIGH);
+    digitalWrite(NOT_SP8T_3,HIGH);
+    digitalWrite(NOT_SP8T_4,HIGH);
+    digitalWrite(NOT_SP8T_5,HIGH);
+    digitalWrite(NOT_SP8T_6,HIGH);
+    digitalWrite(NOT_SP8T_7,HIGH);
+    digitalWrite(NOT_SP8T_8,HIGH);
+      
     digitalWrite(SP8T_1,LOW);
     digitalWrite(SP8T_2,LOW);
     digitalWrite(SP8T_3,LOW);
@@ -510,13 +532,6 @@ void loop() {
     digitalWrite(SP8T_7,LOW);
     digitalWrite(SP8T_8,HIGH);
 
-    digitalWrite(NOT_SP8T_1,HIGH);
-    digitalWrite(NOT_SP8T_2,HIGH);
-    digitalWrite(NOT_SP8T_3,HIGH);
-    digitalWrite(NOT_SP8T_4,HIGH);
-    digitalWrite(NOT_SP8T_5,HIGH);
-    digitalWrite(NOT_SP8T_6,HIGH);
-    digitalWrite(NOT_SP8T_7,HIGH);
     digitalWrite(NOT_SP8T_8,LOW);
 
   }
