@@ -254,10 +254,10 @@ void loop() {
      if(ser == 54){    //ASCII for 6
       mode = 6;
      }
-     if(ser == 55){    //ASCII for 4
+     if(ser == 55){    //ASCII for 7
       mode = 7;
      }
-     if(ser == 56){    //ASCII for 5
+     if(ser == 56){    //ASCII for 8
       mode = 8;
      }
  
@@ -288,7 +288,6 @@ void loop() {
     pixels.setPixelColor(10, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(11, pixels.Color(100, 0, 100));    
 
-    digitalWrite(NOT_SP8T_1,HIGH);
     digitalWrite(NOT_SP8T_2,HIGH);
     digitalWrite(NOT_SP8T_3,HIGH);
     digitalWrite(NOT_SP8T_4,HIGH);
@@ -321,7 +320,6 @@ void loop() {
     pixels.setPixelColor(11, pixels.Color(0, 0, 0)); 
     
     digitalWrite(NOT_SP8T_1,HIGH);
-    digitalWrite(NOT_SP8T_2,HIGH);
     digitalWrite(NOT_SP8T_3,HIGH);
     digitalWrite(NOT_SP8T_4,HIGH);
     digitalWrite(NOT_SP8T_5,HIGH);
@@ -353,7 +351,6 @@ void loop() {
         
     digitalWrite(NOT_SP8T_1,HIGH);
     digitalWrite(NOT_SP8T_2,HIGH);
-    digitalWrite(NOT_SP8T_3,HIGH);
     digitalWrite(NOT_SP8T_4,HIGH);
     digitalWrite(NOT_SP8T_5,HIGH);
     digitalWrite(NOT_SP8T_6,HIGH);
@@ -386,7 +383,6 @@ void loop() {
     digitalWrite(NOT_SP8T_1,HIGH);
     digitalWrite(NOT_SP8T_2,HIGH);
     digitalWrite(NOT_SP8T_3,HIGH);
-    digitalWrite(NOT_SP8T_4,HIGH);
     digitalWrite(NOT_SP8T_5,HIGH);
     digitalWrite(NOT_SP8T_6,HIGH);
     digitalWrite(NOT_SP8T_7,HIGH);
@@ -419,7 +415,6 @@ void loop() {
     digitalWrite(NOT_SP8T_2,HIGH);
     digitalWrite(NOT_SP8T_3,HIGH);
     digitalWrite(NOT_SP8T_4,HIGH);
-    digitalWrite(NOT_SP8T_5,HIGH);
     digitalWrite(NOT_SP8T_6,HIGH);
     digitalWrite(NOT_SP8T_7,HIGH);
     digitalWrite(NOT_SP8T_8,HIGH);
@@ -454,7 +449,6 @@ void loop() {
     digitalWrite(NOT_SP8T_3,HIGH);
     digitalWrite(NOT_SP8T_4,HIGH);
     digitalWrite(NOT_SP8T_5,HIGH);
-    digitalWrite(NOT_SP8T_6,HIGH);
     digitalWrite(NOT_SP8T_7,HIGH);
     digitalWrite(NOT_SP8T_8,HIGH);
 
@@ -473,7 +467,6 @@ void loop() {
 
   if(mode == 7){
    
-
     pixels.setPixelColor(4, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(5, pixels.Color(100, 0, 100));    
     pixels.setPixelColor(6, pixels.Color(0, 0, 0));    
@@ -489,7 +482,6 @@ void loop() {
     digitalWrite(NOT_SP8T_4,HIGH);
     digitalWrite(NOT_SP8T_5,HIGH);
     digitalWrite(NOT_SP8T_6,HIGH);
-    digitalWrite(NOT_SP8T_7,HIGH);
     digitalWrite(NOT_SP8T_8,HIGH);
     
     digitalWrite(SP8T_1,LOW);
@@ -521,7 +513,6 @@ void loop() {
     digitalWrite(NOT_SP8T_5,HIGH);
     digitalWrite(NOT_SP8T_6,HIGH);
     digitalWrite(NOT_SP8T_7,HIGH);
-    digitalWrite(NOT_SP8T_8,HIGH);
       
     digitalWrite(SP8T_1,LOW);
     digitalWrite(SP8T_2,LOW);
@@ -544,6 +535,33 @@ if(modeEcal == 1){
     pixels.setPixelColor(1, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(0, pixels.Color(0, 0, 0));        
 
+    pixels.setPixelColor(4, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(5, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(6, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(7, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(8, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(9, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(10, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(11, pixels.Color(0, 0, 0)); 
+
+    digitalWrite(NOT_SP8T_1,HIGH);
+    digitalWrite(NOT_SP8T_2,HIGH);
+    digitalWrite(NOT_SP8T_3,HIGH);
+    digitalWrite(NOT_SP8T_4,HIGH);
+    digitalWrite(NOT_SP8T_5,HIGH);
+    digitalWrite(NOT_SP8T_6,HIGH);
+    digitalWrite(NOT_SP8T_7,HIGH);
+    digitalWrite(NOT_SP8T_8,HIGH);
+
+    digitalWrite(SP8T_1,LOW);
+    digitalWrite(SP8T_2,LOW);
+    digitalWrite(SP8T_3,LOW);
+    digitalWrite(SP8T_4,LOW);
+    digitalWrite(SP8T_5,LOW);
+    digitalWrite(SP8T_6,LOW);
+    digitalWrite(SP8T_7,LOW);
+    digitalWrite(SP8T_8,LOW);
+
     digitalWrite(ECAL_SHORT,HIGH);
     digitalWrite(ECAL_LOAD,LOW);
     digitalWrite(ECAL_1234,LOW);
@@ -558,6 +576,34 @@ if(modeEcal == 2){
     pixels.setPixelColor(2, pixels.Color(100, 100, 100));    
     pixels.setPixelColor(1, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(0, pixels.Color(0, 0, 0));        
+
+    pixels.setPixelColor(4, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(5, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(6, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(7, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(8, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(9, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(10, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(11, pixels.Color(0, 0, 0)); 
+
+    digitalWrite(NOT_SP8T_1,HIGH);
+    digitalWrite(NOT_SP8T_2,HIGH);
+    digitalWrite(NOT_SP8T_3,HIGH);
+    digitalWrite(NOT_SP8T_4,HIGH);
+    digitalWrite(NOT_SP8T_5,HIGH);
+    digitalWrite(NOT_SP8T_6,HIGH);
+    digitalWrite(NOT_SP8T_7,HIGH);
+    digitalWrite(NOT_SP8T_8,HIGH);
+
+    digitalWrite(SP8T_1,LOW);
+    digitalWrite(SP8T_2,LOW);
+    digitalWrite(SP8T_3,LOW);
+    digitalWrite(SP8T_4,LOW);
+    digitalWrite(SP8T_5,LOW);
+    digitalWrite(SP8T_6,LOW);
+    digitalWrite(SP8T_7,LOW);
+    digitalWrite(SP8T_8,LOW);
+
     digitalWrite(ECAL_SHORT,LOW);
     digitalWrite(ECAL_LOAD,LOW);
     digitalWrite(ECAL_1234,LOW);
@@ -571,6 +617,34 @@ if(modeEcal == 3){
     pixels.setPixelColor(2, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(1, pixels.Color(128, 82, 0));    
     pixels.setPixelColor(0, pixels.Color(0, 0, 0));        
+
+    pixels.setPixelColor(4, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(5, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(6, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(7, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(8, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(9, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(10, pixels.Color(0, 0, 0));    
+    pixels.setPixelColor(11, pixels.Color(0, 0, 0)); 
+
+    digitalWrite(NOT_SP8T_1,HIGH);
+    digitalWrite(NOT_SP8T_2,HIGH);
+    digitalWrite(NOT_SP8T_3,HIGH);
+    digitalWrite(NOT_SP8T_4,HIGH);
+    digitalWrite(NOT_SP8T_5,HIGH);
+    digitalWrite(NOT_SP8T_6,HIGH);
+    digitalWrite(NOT_SP8T_7,HIGH);
+    digitalWrite(NOT_SP8T_8,HIGH);
+
+    digitalWrite(SP8T_1,LOW);
+    digitalWrite(SP8T_2,LOW);
+    digitalWrite(SP8T_3,LOW);
+    digitalWrite(SP8T_4,LOW);
+    digitalWrite(SP8T_5,LOW);
+    digitalWrite(SP8T_6,LOW);
+    digitalWrite(SP8T_7,LOW);
+    digitalWrite(SP8T_8,LOW);
+
     digitalWrite(ECAL_SHORT,LOW);
     digitalWrite(ECAL_LOAD,HIGH);
     digitalWrite(ECAL_1234,LOW);
