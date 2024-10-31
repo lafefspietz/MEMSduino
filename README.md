@@ -9,6 +9,7 @@ System components:
  - [3dprint/](3dprint/)
  - [wood/](wood/)
  - [metalbox/](metalbox/)
+ - [pcb/](pcb/)
 
 
 ## Disclaimer

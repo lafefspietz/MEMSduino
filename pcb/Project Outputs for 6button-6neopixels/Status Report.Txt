@@ -1,0 +1,22 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [6button-6neopixels.PrjPcb]
+   Generated File[6button-6neopixel_Copper_Signal_Top.gbr]
+   Generated File[6button-6neopixel_Copper_Signal_Bot.gbr]
+   Generated File[6button-6neopixel_Legend_Top.gbr]
+   Generated File[6button-6neopixel_Legend_Bot.gbr]
+   Generated File[6button-6neopixel_Soldermask_Top.gbr]
+   Generated File[6button-6neopixel_Soldermask_Bot.gbr]
+   Generated File[6button-6neopixel_Paste_Top.gbr]
+   Generated File[6button-6neopixel_Paste_Bot.gbr]
+   Generated File[6button-6neopixel_Profile.gbr]
+   Generated File[6button-6neopixel_NPTH_Drill.gbr]
+   Generated File[6button-6neopixel_PTH_Drill.gbr]
+   Generated File[6button-6neopixel.EXTREP]
+   Generated File[6button-6neopixel.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 7:05:50 PM On 10/30/2024
