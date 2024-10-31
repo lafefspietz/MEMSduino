@@ -4,7 +4,12 @@ Open source system for controlling MEMS switches using an Arduino.  This system 
 
 ## [System Bill of Materials](BOM.xlsx)
 
-[3dprint/](3dprint/)
+System components:
+
+ - [3dprint/](3dprint/)
+ - [wood/](wood/)
+ - [metalbox/](metalbox/)
+
 
 ## Disclaimer
 
