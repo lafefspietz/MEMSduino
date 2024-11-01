@@ -10,7 +10,7 @@ System components:
  - [wood/](wood/)
  - [metalbox/](metalbox/)
  - [pcb/](pcb/)
-
+ - [code/](code/)
 
 ## Disclaimer
 
