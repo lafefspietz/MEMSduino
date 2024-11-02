@@ -8,10 +8,9 @@
 <body>    
 <h2><a href = "index.html">home</a></h2>
 
-
 <h1>Files</h1>
 
-<textarea id = "csvtext" style = "width:80%;display:block;height:40em;background-color:black;font:courier;color:#00ff00"></textarea>
+<textarea id = "csvtext" style = "width:95%;display:block;height:40em;background-color:black;font:courier;color:#00ff00"></textarea>
 
 
 <ul id = "filelist">
@@ -28,7 +27,14 @@ filetypes = {
     "PcbDoc":"Altium layout file",
     "PrjPcb":"Altium project file",
     "PrjPcbStructure":"Altium project structure file",
-    "SchDoc":"Altium schematic file"
+    "SchDoc":"Altium schematic file",
+    "STL":"3d print file",
+    "SLDDRW":"SolidWorks drawing file",
+    "SLDPRT":"SolidWorks part file",
+    "STEP":"Machining file",
+    "pdf":"Drawing",
+    "ino":"Arduino code file",
+    "py":"Python code file"
 }
 
 
@@ -44,7 +50,7 @@ httpcfiles.onreadystatechange = function() {
 httpcfiles.open("GET", "dir.php", true);
 httpcfiles.send();
 
-csvdata = "file name, file type, file url\n";
+csvdata = "Design file name, File type,Open Source License,Location of the file\n";
 
 function loadfiles(){
     for(var index = 0;index < filenames.length;index++){
@@ -58,6 +64,7 @@ function loadfiles(){
                 type = "";
                 type  = filetypes[extension];   
                 csvdata += type + ",";
+                csvdata += "Public Domain,";
                 csvdata += repobase + filenames[index] + "\n";
             }
 
