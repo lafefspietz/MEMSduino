@@ -1,0 +1,23 @@
+Design file name, File type,Open Source License,Location of the file
+HV-DCDC-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/HV-DCDC-bracket.SLDDRW
+HV-DCDC-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/HV-DCDC-bracket.SLDPRT
+HV-DCDC-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/HV-DCDC-bracket.STL
+HV-DCDC-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/HV-DCDC-bracket.pdf
+MEMSduino-3dprint.zip,ZIP of Gerber Files used to manufacture board,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/MEMSduino-3dprint.zip
+arduino-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-bracket.SLDDRW
+arduino-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-bracket.SLDPRT
+arduino-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-bracket.STL
+arduino-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-bracket.pdf
+arduino-uno-hole-dimensions.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-uno-hole-dimensions.pdf
+cryoelec-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/cryoelec-bracket.SLDDRW
+cryoelec-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/cryoelec-bracket.SLDPRT
+cryoelec-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/cryoelec-bracket.STL
+cryoelec-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/cryoelec-bracket.pdf
+front-panel-center-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-center-bracket.SLDDRW
+front-panel-center-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-center-bracket.SLDPRT
+front-panel-center-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-center-bracket.STL
+front-panel-center-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-center-bracket.pdf
+front-panel-edge-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-edge-bracket.SLDDRW
+front-panel-edge-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-edge-bracket.SLDPRT
+front-panel-edge-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-edge-bracket.STL
+front-panel-edge-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-edge-bracket.pdf

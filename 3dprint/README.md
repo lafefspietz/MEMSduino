@@ -2,6 +2,10 @@
 
 # MEMSDuino 3d Print Files
 
+## [files.html](files.html)
+
+## [webeditor.html](webeditor.html)
+
 ![all-3d-printed-parts.jpg](all-3d-printed-parts.jpg)
 
 Print all files in PLA. Use 4-40 brass thread inserts in HV-DCDC-bracket, arduino-bracket and front-panel-edge-bracket and 0-80 thread inserts in cryoelec-bracket.  Designs compatible with both hot press and press fit thread inserts.  This repository contains designs for five parts, and for each part there is an .STL file for sending to the 3d printer, a SolidWorks part file, a SolidWorks drawing file, a .pdf of the drawing, and an image of the pdf.  The zip file contains all five files for all 5 parts.  Which files you print depend on the use case, and are listed below in the list of STL files in this document.
