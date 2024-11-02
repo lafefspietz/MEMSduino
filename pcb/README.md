@@ -4,6 +4,9 @@
 
 To order circuit boards, upload the .zip of the Gerber files to a PCB manufacturer web page.  These boards look the best with black soldermask and white silkscreen.
 
+## [webeditor.html](webeditor.html)
+
+## [files.html](files.html)
 
 ## SP6T Files
 
