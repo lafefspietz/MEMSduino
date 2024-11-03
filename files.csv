@@ -1,66 +1,66 @@
 Design file name, File type,Open Source License,Location of the file
-6_port_controller.ino,Arduino code file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/6_port_controller.ino
-6button-6eopixel.SchDoc,Altium schematic file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/6button-6eopixel.SchDoc
-6button-6neopixel-BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/6button-6neopixel-BOM.xlsx
-6button-6neopixel-gerbers.zip,ZIP of Gerber Files used to manufacture board,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/6button-6neopixel-gerbers.zip
-6button-6neopixel.PcbDoc,Altium layout file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/6button-6neopixel.PcbDoc
-6button-6neopixels.PrjPcb,Altium project file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/6button-6neopixels.PrjPcb
-6button-6neopixels.PrjPcbStructure,Altium project structure file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/6button-6neopixels.PrjPcbStructure
-9-port-controller.ino,Arduino code file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/9-port-controller.ino
-9button-9neopixel-BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/9button-9neopixel-BOM.xlsx
-9button-9neopixel-gerbers.zip,ZIP of Gerber Files used to manufacture board,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/9button-9neopixel-gerbers.zip
-9button-9neopixel.PcbDoc,Altium layout file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/9button-9neopixel.PcbDoc
-9button-9neopixel.SchDoc,Altium schematic file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/9button-9neopixel.SchDoc
-9button-9neopixels.PrjPcb,Altium project file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/9button-9neopixels.PrjPcb
-9button-9neopixels.PrjPcbStructure,Altium project structure file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/9button-9neopixels.PrjPcbStructure
-AN-1304-A-box-modifications.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/AN-1304-A-box-modifications.SLDDRW
-AN-1304-A-box-modifications.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/AN-1304-A-box-modifications.SLDPRT
-AN-1304-A-box-modifications.STEP,Machining file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/AN-1304-A-box-modifications.STEP
-AN-1304-A-box-modifications.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/AN-1304-A-box-modifications.pdf
-AN-1304-A-lid-modifications.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/AN-1304-A-lid-modifications.SLDDRW
-AN-1304-A-lid-modifications.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/AN-1304-A-lid-modifications.SLDPRT
-AN-1304-A-lid-modifications.STEP,Machining file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/AN-1304-A-lid-modifications.STEP
-AN-1304-A-lid-modifications.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/AN-1304-A-lid-modifications.pdf
-BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/BOM.xlsx
-DB25-relay-HV-control-BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/DB25-relay-HV-control-BOM.xlsx
-DB25-relay-HV-control-gerbers.zip,ZIP of Gerber Files used to manufacture board,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/DB25-relay-HV-control-gerbers.zip
-DB25-relay-HV-control.PcbDoc,Altium layout file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/DB25-relay-HV-control.PcbDoc
-DB25-relay-HV-control.PrjPcb,Altium project file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/DB25-relay-HV-control.PrjPcb
-DB25-relay-HV-control.PrjPcbStructure,Altium project structure file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/DB25-relay-HV-control.PrjPcbStructure
-DB25-relay-HV-control.SchDoc,Altium schematic file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/DB25-relay-HV-control.SchDoc
-HV-DCDC-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/HV-DCDC-bracket.SLDDRW
-HV-DCDC-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/HV-DCDC-bracket.SLDPRT
-HV-DCDC-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/HV-DCDC-bracket.STL
-HV-DCDC-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/HV-DCDC-bracket.pdf
-SP6T-COTS-System-Build-BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/SP6T-COTS-System-Build-BOM.xlsx
-SP9T-Custom-System-Build-BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/SP9T-Custom-System-Build-BOM.xlsx
-arduino-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-bracket.SLDDRW
-arduino-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-bracket.SLDPRT
-arduino-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-bracket.STL
-arduino-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-bracket.pdf
-arduino-to-headers-shield-BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-to-headers-shield-BOM.xlsx
-arduino-to-headers-shield-gerbers.zip,ZIP of Gerber Files used to manufacture board,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-to-headers-shield-gerbers.zip
-arduino-to-headers-shield.PcbDoc,Altium layout file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-to-headers-shield.PcbDoc
-arduino-to-headers-shield.PrjPcb,Altium project file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-to-headers-shield.PrjPcb
-arduino-to-headers-shield.PrjPcbStructure,Altium project structure file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-to-headers-shield.PrjPcbStructure
-arduino-to-headers-shield.SchDoc,Altium schematic file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/arduino-to-headers-shield.SchDoc
-cryoelec-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/cryoelec-bracket.SLDDRW
-cryoelec-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/cryoelec-bracket.SLDPRT
-cryoelec-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/cryoelec-bracket.STL
-cryoelec-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/cryoelec-bracket.pdf
-front-panel-center-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-center-bracket.SLDDRW
-front-panel-center-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-center-bracket.SLDPRT
-front-panel-center-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-center-bracket.STL
-front-panel-center-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-center-bracket.pdf
-front-panel-edge-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-edge-bracket.SLDDRW
-front-panel-edge-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-edge-bracket.SLDPRT
-front-panel-edge-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-edge-bracket.STL
-front-panel-edge-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/front-panel-edge-bracket.pdf
-rack-mount-board-SP6T.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/rack-mount-board-SP6T.SLDDRW
-rack-mount-board-SP6T.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/rack-mount-board-SP6T.SLDPRT
-rack-mount-board-SP6T.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/rack-mount-board-SP6T.pdf
-rack-mount-board-SP9T.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/rack-mount-board-SP9T.SLDDRW
-rack-mount-board-SP9T.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/rack-mount-board-SP9T.SLDPRT
-rack-mount-board-SP9T.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/rack-mount-board-SP9T.pdf
-switch_control_python.py,Python code file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/switch_control_python.py
-~$BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/pcb/~$BOM.xlsx
+6_port_controller.ino,Arduino source code file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/6_port_controller.ino
+6button-6eopixel.SchDoc,Altium schematic file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/6button-6eopixel.SchDoc
+6button-6neopixel-BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/6button-6neopixel-BOM.xlsx
+6button-6neopixel-gerbers.zip,ZIP of Gerber Files used to manufacture board,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/6button-6neopixel-gerbers.zip
+6button-6neopixel.PcbDoc,Altium layout file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/6button-6neopixel.PcbDoc
+6button-6neopixels.PrjPcb,Altium project file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/6button-6neopixels.PrjPcb
+6button-6neopixels.PrjPcbStructure,Altium project structure file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/6button-6neopixels.PrjPcbStructure
+9-port-controller.ino,Arduino source code file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/9-port-controller.ino
+9button-9neopixel-BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/9button-9neopixel-BOM.xlsx
+9button-9neopixel-gerbers.zip,ZIP of Gerber Files used to manufacture board,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/9button-9neopixel-gerbers.zip
+9button-9neopixel.PcbDoc,Altium layout file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/9button-9neopixel.PcbDoc
+9button-9neopixel.SchDoc,Altium schematic file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/9button-9neopixel.SchDoc
+9button-9neopixels.PrjPcb,Altium project file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/9button-9neopixels.PrjPcb
+9button-9neopixels.PrjPcbStructure,Altium project structure file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/9button-9neopixels.PrjPcbStructure
+AN-1304-A-box-modifications.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-box-modifications.SLDDRW
+AN-1304-A-box-modifications.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-box-modifications.SLDPRT
+AN-1304-A-box-modifications.STEP,Machining file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-box-modifications.STEP
+AN-1304-A-box-modifications.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-box-modifications.pdf
+AN-1304-A-lid-modifications.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-lid-modifications.SLDDRW
+AN-1304-A-lid-modifications.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-lid-modifications.SLDPRT
+AN-1304-A-lid-modifications.STEP,Machining file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-lid-modifications.STEP
+AN-1304-A-lid-modifications.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-lid-modifications.pdf
+DB25-relay-HV-control-BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/DB25-relay-HV-control-BOM.xlsx
+DB25-relay-HV-control-gerbers.zip,ZIP of Gerber Files used to manufacture board,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/DB25-relay-HV-control-gerbers.zip
+DB25-relay-HV-control.PcbDoc,Altium layout file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/DB25-relay-HV-control.PcbDoc
+DB25-relay-HV-control.PrjPcb,Altium project file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/DB25-relay-HV-control.PrjPcb
+DB25-relay-HV-control.PrjPcbStructure,Altium project structure file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/DB25-relay-HV-control.PrjPcbStructure
+DB25-relay-HV-control.SchDoc,Altium schematic file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/DB25-relay-HV-control.SchDoc
+HV-DCDC-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/HV-DCDC-bracket.SLDDRW
+HV-DCDC-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/HV-DCDC-bracket.SLDPRT
+HV-DCDC-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/HV-DCDC-bracket.STL
+HV-DCDC-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/HV-DCDC-bracket.pdf
+SP6T-COTS-BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/SP6T-COTS-BOM.xlsx
+SP9T-Custom-BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/SP9T-Custom-BOM.xlsx
+arduino-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/arduino-bracket.SLDDRW
+arduino-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/arduino-bracket.SLDPRT
+arduino-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/arduino-bracket.STL
+arduino-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/arduino-bracket.pdf
+arduino-to-headers-shield-BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/arduino-to-headers-shield-BOM.xlsx
+arduino-to-headers-shield-gerbers.zip,ZIP of Gerber Files used to manufacture board,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/arduino-to-headers-shield-gerbers.zip
+arduino-to-headers-shield.PcbDoc,Altium layout file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/arduino-to-headers-shield.PcbDoc
+arduino-to-headers-shield.PrjPcb,Altium project file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/arduino-to-headers-shield.PrjPcb
+arduino-to-headers-shield.PrjPcbStructure,Altium project structure file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/arduino-to-headers-shield.PrjPcbStructure
+arduino-to-headers-shield.SchDoc,Altium schematic file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/arduino-to-headers-shield.SchDoc
+cryoelec-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket.SLDDRW
+cryoelec-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket.SLDPRT
+cryoelec-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket.STL
+cryoelec-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket.pdf
+front-panel-center-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/front-panel-center-bracket.SLDDRW
+front-panel-center-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/front-panel-center-bracket.SLDPRT
+front-panel-center-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/front-panel-center-bracket.STL
+front-panel-center-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/front-panel-center-bracket.pdf
+front-panel-edge-bracket.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/front-panel-edge-bracket.SLDDRW
+front-panel-edge-bracket.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/front-panel-edge-bracket.SLDPRT
+front-panel-edge-bracket.STL,3d print file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/front-panel-edge-bracket.STL
+front-panel-edge-bracket.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/front-panel-edge-bracket.pdf
+rack-mount-board-SP6T.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/rack-mount-board-SP6T.SLDDRW
+rack-mount-board-SP6T.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/rack-mount-board-SP6T.SLDPRT
+rack-mount-board-SP6T.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/rack-mount-board-SP6T.pdf
+rack-mount-board-SP9T.SLDDRW,SolidWorks drawing file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/rack-mount-board-SP9T.SLDDRW
+rack-mount-board-SP9T.SLDPRT,SolidWorks part file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/rack-mount-board-SP9T.SLDPRT
+rack-mount-board-SP9T.pdf,Drawing,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/rack-mount-board-SP9T.pdf
+switch_control_matlab.m,Matlab source code file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/switch_control_matlab.m
+switch_control_python.py,Python source code file,Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/switch_control_python.py
+~$BOM.xlsx,Bill of Materials(Excel file),Public Domain,https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/~$BOM.xlsx

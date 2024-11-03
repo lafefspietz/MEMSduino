@@ -8,7 +8,7 @@
 <body>    
 <h2><a href = "index.html">home</a></h2>
 
-<h1>BOM SP9T</h1>
+<h1>BOM SP6T</h1>
 
 <textarea id = "csvtext" style = "width:95%;display:none;height:40em;background-color:black;font:courier;color:#00ff00"></textarea>
 
@@ -34,7 +34,7 @@ httpcfiles.onreadystatechange = function() {
         httpclink.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 CSVRAWlinks = this.responseText;
-                links = CSVRAWlinks.split("\r");
+                links = CSVRAWlinks.split("\r\n");
                 
                 for(var index  = 1;index < descriptions.length;index++){
                     markdown += " - [";
@@ -47,12 +47,12 @@ httpcfiles.onreadystatechange = function() {
 
             }
         };
-        httpclink.open("GET", "fileloader.php?filename=BOM-SP6T-links.csv", true);
+        httpclink.open("GET", "fileloader.php?filename=SP6T-links.csv", true);
         httpclink.send();
 
     }
 };
-httpcfiles.open("GET", "fileloader.php?filename=BOM-SP6T-descriptions.csv", true);
+httpcfiles.open("GET", "fileloader.php?filename=SP6T-descriptions.csv", true);
 httpcfiles.send();
 
 

@@ -1,0 +1,82 @@
+ <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+
+</head>
+<body>    
+<h2><a href = "index.html">home</a></h2>
+
+<h1>BOM SP9T</h1>
+
+<textarea id = "csvtext" style = "width:95%;display:none;height:40em;background-color:black;font:courier;color:#00ff00"></textarea>
+
+<textarea id = "markdowntext" style = "width:95%;display:block;height:40em;background-color:black;font:courier;color:#00ff00"></textarea>
+
+<ul id = "filelist">
+    
+</ul>
+
+<script>
+
+
+CSVRAW = "";
+var httpcfiles = new XMLHttpRequest();
+httpcfiles.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        CSVRAW = this.responseText;
+        loadcsv();
+    }
+};
+httpcfiles.open("GET", "fileloader.php?filename=SP9T-Custom-System-Build-BOM.csv", true);
+httpcfiles.send();
+
+
+markdown = "|";
+
+
+function loadcsv(){
+    document.getElementById("markdowntext").value = "";
+    document.getElementById("csvtext").value = CSVRAW;
+    rows = CSVRAW.split("\r");
+    markdown = "|";
+    toprowarray = rows[0].split(",");
+    for(var colindex = 0;colindex < toprowarray.length;colindex++){
+        markdown += toprowarray[colindex] + "|";
+    }
+    
+    markdown += "\n";
+ 
+    markdown += "|";
+    for(var colindex = 0;colindex < toprowarray.length;colindex++){
+        markdown += "-----|";
+    }
+    markdown += "\n";
+
+    for(var rowindex = 1;rowindex < rows.length;rowindex++){
+        markdown += "|";
+        rowarray = rows[rowindex].split(",");
+        for(var colindex = 0;colindex < rowarray.length;colindex++){
+            markdown += rowarray[colindex] + "|";
+        }
+        markdown += "\n";
+    }
+    
+
+    document.getElementById("markdowntext").value = markdown;
+}
+
+
+</script>
+<style>
+    body{
+        font-size:2em;
+        font-family:Arial;
+    }
+    a{
+        color:#0000ff;
+    }
+</style>
+</body>
+</html>
