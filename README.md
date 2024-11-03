@@ -2,6 +2,9 @@
 
 Open source system for controlling MEMS switches using an Arduino.  This system allows for both serial control via software and physical control by a human operator with buttons and indicator lights of a range of possible MEMS switch configurations.  A set of relays are controlled by the Arduino, which determines which of the lines on a DSUB connector are energized with a 90 volt signal.  This DSUB can then be connected to any cryogenic wiring which leads to the various DC control lines of a cryogenic MEMS RF switch.  
 
+
+
+
 ## [System Bill of Materials](BOM.xlsx)
 
 System components:
@@ -203,7 +206,6 @@ Certain equipment, instruments, software, or materials are identified in this do
 # Jupyter Notebook with Python Control
 
  - [jupyter/switch_control.ipynb](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/jupyter/switch_control.ipynb)
-
 
 
 ## License
