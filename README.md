@@ -4,6 +4,10 @@
 
 Open source system for controlling MEMS switches using an Arduino.  This system allows for both serial control via software and physical control by a human operator with buttons and indicator lights of a range of possible MEMS switch configurations.  A set of relays are controlled by the Arduino, which determines which of the lines on a DSUB connector are energized with a 90 volt signal.  This DSUB can then be connected to any cryogenic wiring which leads to the various DC control lines of a cryogenic MEMS RF switch.  
 
+![](images/sp9t-panel.png)
+![](images/sp6t-panel.png)
+![](images/sp8t-panel.png)
+
 ## All Files
 
  - [6_port_controller.ino](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/6_port_controller.ino)
