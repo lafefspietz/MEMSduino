@@ -8,6 +8,8 @@ Open source system for controlling MEMS switches using an Arduino.  This system 
 ![](images/sp6t-panel.png)
 ![](images/sp8t-panel.png)
 
+[SP6T-COTS/](SP6T-COTS/)
+
 ## All Files
 
  - [6_port_controller.ino](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/6_port_controller.ino)
