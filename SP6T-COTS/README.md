@@ -1,4 +1,4 @@
-[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/SP6T-cots.png)]()
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/SP6T-cots.png)](https://github.com/lafefspietz/MEMSduino/blob/main/SP6T-COTS/SP6T-cots.pdf)
 
 # [MEMSDUINO: 6PST COTS](https://github.com/lafefspietz/MEMSduino/tree/main/SP6T-COTS)
 
@@ -105,7 +105,20 @@ Arduino-based control panel for [6PST switches](https://www.cryoelec.com/product
 
 
 
-## IMAGES
+## DRAWINGS
+
+
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/arduino-bracket-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/arduino-bracket.STL)
+
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/front-panel-edge-bracket-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/front-panel-edge-bracket.STL)
+
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/cryoelec-bracket-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket.STL)
+  
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/rack-mount-board-SP6T.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/rack-mount-board-SP6T.pdf)
+
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/metal-box-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-box-modifications.pdf)
+
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/metal-box-lid.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-lid-modifications.pdf)
 
 ## ARDUINO CODE
 
