@@ -85,6 +85,7 @@ Open source system for controlling MEMS switches using an Arduino.  This system 
  - [front-panel-edge-bracket](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/front-panel-edge-bracket.STL)
  - [Brass threaded inserts #4-40](https://www.3djake.com/ruthex/threaded-insert-4-40-unc-100-pieces)
  - [0-80 Brass Thread Inserts(E-Z LOK 240-000-BR)](https://www.amazon.com/Z-LOK-Threaded-Insert-Plastic/dp/B08QJJDCW1/)
+ - [0-80 screws  3/16" phillips, stainless](https://www.amazon.com/Machine-Screws-Phillips-Stainless-Steel/dp/B07X8NTTB9/)
  - [Zinc-Plated Steel Pan Head Phillips Screw 4-40 Thread, 1/4" Long](https://www.mcmaster.com/90272A106/)
  - [Diecast aluminum enclosure, AN-1304-A from BUD Industries](https://www.digikey.com/en/products/detail/bud-industries/AN-1304-A/5804538)
  - [Male-Female Threaded Hex Standoff 18-8 Stainless Steel, 3/16" Hex, 7/32" Long, 4-40 to 4-40 Thread](https://www.mcmaster.com/91075A462/)
