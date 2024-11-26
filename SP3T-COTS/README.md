@@ -1,12 +1,9 @@
- - [webeditor.html](webeditor.html)
- - [qrcode.html](qrcode.html)
 
-[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/SP6T-cots.png)](https://github.com/lafefspietz/MEMSduino/blob/main/SP6T-COTS/SP3T-cots.pdf)
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP3T-COTS/SP3T-cots.png)](https://github.com/lafefspietz/MEMSduino/blob/main/SP3T-COTS/SP3T-cots.pdf)
 
+# [MEMSDUINO: SP3T COTS](https://github.com/lafefspietz/MEMSduino/tree/main/SP3T-COTS)
 
-# [MEMSDUINO: 6PST COTS](https://github.com/lafefspietz/MEMSduino/tree/main/SP6T-COTS)
-
-Arduino-based control panel for [6PST switches](https://www.cryoelec.com/products/cryoswitchsp6t ) from [Cryo-elec](https://www.cryoelec.com/).
+Arduino-based control panel for [3PST switches](https://www.cryoelec.com/products/cryoswitchsp3t) from [Cryo-elec](https://www.cryoelec.com/).
 
 To program over serial, connect at 9600 baud and send the character of the number you want to select. For example to select 1, send "1".
 
@@ -68,7 +65,10 @@ To program over serial, connect at 9600 baud and send the character of the numbe
 
 ## Files
 
-
+ - [cryoelec-bracket-SP3T.SLDDRW](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket-SP3T.SLDDRW)
+ - [cryoelec-bracket-SP3T.SLDPRT](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket-SP3T.SLDPRT)
+ - [cryoelec-bracket-SP3T.STL](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket-SP3T.STL)
+ - [cryoelec-bracket-SP3T.pdf](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket-SP3T.pdf)
  - [6_port_controller.ino](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/6_port_controller.ino)
  - [6button-6eopixel.SchDoc](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/6button-6eopixel.SchDoc)
  - [6button-6neopixel-BOM.xlsx](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/6button-6neopixel-BOM.xlsx)
