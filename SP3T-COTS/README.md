@@ -116,12 +116,12 @@ To program over serial, connect at 9600 baud and send the character of the numbe
 ## DRAWINGS
 
 
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP3T-COTS/cryoelec-bracket-SP3T-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket-SP3T.STL)
+
 [![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/arduino-bracket-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/arduino-bracket.STL)
 
 [![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/front-panel-edge-bracket-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/front-panel-edge-bracket.STL)
 
-[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/cryoelec-bracket-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket.STL)
-  
 [![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/rack-mount-board-SP6T.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/rack-mount-board-SP6T.pdf)
 
 [![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/metal-box-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-box-modifications.pdf)
