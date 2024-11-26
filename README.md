@@ -12,6 +12,8 @@ Open source system for controlling MEMS switches using an Arduino.  This system 
 
 ## [SP3T-COTS/](SP3T-COTS/)
 
+## [METAL BOX](metal-box/)
+
 ## All Files
 
  - [6_port_controller.ino](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/6_port_controller.ino)
