@@ -4,6 +4,8 @@
 
 Arduino-based control panel for [6PST switches](https://www.cryoelec.com/products/cryoswitchsp6t ) from [Cryo-elec](https://www.cryoelec.com/).
 
+To program over serial, connect at 9600 baud and send the character of the number you want to select. For example to select 1, send "1".
+
 ## BUILD GUIDE
 
 1. Cut [1/2" thick 4" x 24" wood board](https://ocoochhardwoods.com/detail/?i=124wo) down to 19 inches wide
