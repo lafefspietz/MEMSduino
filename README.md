@@ -8,7 +8,9 @@ Open source system for controlling MEMS switches using an Arduino.  This system 
 ![](images/sp6t-panel.png)
 ![](images/sp8t-panel.png)
 
-[SP6T-COTS/](SP6T-COTS/)
+## [SP6T-COTS/](SP6T-COTS/)
+
+## [SP3T-COTS/](SP3T-COTS/)
 
 ## All Files
 
