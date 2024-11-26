@@ -1,6 +1,8 @@
 
 [![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP3T-COTS/SP3T-cots.png)](https://github.com/lafefspietz/MEMSduino/blob/main/SP3T-COTS/SP3T-cots.pdf)
 
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP3T-COTS/cryoelec-bracket-SP3T-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket-SP3T.STL)
+
 # [MEMSDUINO: SP3T COTS](https://github.com/lafefspietz/MEMSduino/tree/main/SP3T-COTS)
 
 Arduino-based control panel for [3PST switches](https://www.cryoelec.com/products/cryoswitchsp3t) from [Cryo-elec](https://www.cryoelec.com/).
