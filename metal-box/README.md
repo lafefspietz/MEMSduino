@@ -1,5 +1,5 @@
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/bud-box-raw.png/images/qrcode.png)
-![](images/qrcode-page.png)
+![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/qrcode.png)
+![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/qrcode-page.png)
 
 # [Metal Box](https://github.com/lafefspietz/MEMSduino/tree/main/metal-box)
 
