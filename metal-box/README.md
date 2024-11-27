@@ -3,7 +3,13 @@
 
 # [METAL BOX](https://github.com/lafefspietz/MEMSduino/tree/main/metal-box)
 
-Machined modifications to off the shelf diecast aluminum enclosure, AN-1304-A box from Bud Industries.
+Machined modifications to off the shelf diecast aluminum enclosure, AN-1304-A box from Bud Industries. This box exists to enclose all high voltage electronics. It can be used either with the COTS high voltage controllers which come with cryo-elec switches or with a custom relay board which is part of the [MEMSduino system](https://github.com/lafefspietz/MEMSduino/).  This box is a standardized design which is used by all variations of the MEMSduino system.  
+
+The lid is modified to accept a panel mount DB25 connector of various types depending on the application. The body has a slot machined in the side to pass cables through from the Arduino assembly to the high voltage electronics in the box.  The base of the box has an array of 4 threaded 4-40 holes on a 2 inch centered grid to mount the box to the 1/2" wood board, as well as a set of two holes in the center separated by 1 inch which connects any of a variety of 3d printed circuit board mounting brackets to the inside of the box.  
+
+To do this project yourself, you will want an edge finder, a 1/8" end mill and a 3/8" mill, as well as a #43 drill and 4-40 tap.  To get it outsourced, you will need the pdf of the drawing provided below and also the .STEP file provided below.
+
+
 
 [![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/bud-box-raw.png)](https://www.digikey.com/en/products/detail/bud-industries/AN-1304-A/5804538)
 
