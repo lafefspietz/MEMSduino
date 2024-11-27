@@ -34,16 +34,16 @@ Machined modifications to off the shelf diecast aluminum enclosure, AN-1304-A bo
  - [Male-Female Threaded Hex Standoff 18-8 Stainless Steel, 3/16" Hex, 7/32" Long, 4-40 to 4-40 Thread](https://www.mcmaster.com/91075A462/)
  - [Brass Socket Head Screw 4-40 Thread Size, 3/4" Long](https://www.mcmaster.com/93465A113/ )
  - [Brass Washer for Number 4 Screw Size, 0.12" ID, 0.281" OD](https://www.mcmaster.com/92916A320/)
- - [DB25 panel mount solder cup(for COTS controllers)](https://www.digikey.com/en/products/detail/norcomp-inc/171-025-103L001/858135)
- - [DB25 board mount connector(for HV relay boards)](https://www.digikey.com/en/products/detail/assmann-wsw-components/A-DF-25-PP-Z/1241794)
+ - [DB25 female panel mount solder cup(for COTS controllers)](https://www.digikey.com/en/products/detail/norcomp-inc/171-025-203L001/858144)
+ - [DB25 female board mount connector(for HV relay boards)](https://www.digikey.com/en/products/detail/assmann-wsw-components/A-DF-25-PP-Z/1241794)
 
 ## PICTORIAL BILL OF MATERIALS
 
-### Bud Industries AN-1304-A
+### [Bud Industries AN-1304-A](https://www.digikey.com/en/products/detail/bud-industries/AN-1304-A/5804538)
 
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/bud-box-raw.png)
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/bud-box-raw.png)](https://www.digikey.com/en/products/detail/bud-industries/AN-1304-A/5804538)
 
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/bud-box-raw-drawing.png)
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/bud-box-raw-drawing.png)](https://www.digikey.com/en/products/detail/bud-industries/AN-1304-A/5804538)
 
 ### [3/4" long 4-40 Brass socket cap screws](https://www.mcmaster.com/93465A113/)
 
@@ -75,3 +75,45 @@ These screws are used to attach various brackets to the inside of the box.  Make
 [![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/4-40-standoffs-photo.png)](https://www.mcmaster.com/91075A462/)
 
 [![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/4-40-standoffs-drawing.png)](https://www.mcmaster.com/91075A462/)
+
+### DB 25 Female Solder Cup Connector
+
+NorComp Inc. part number 171-025-203L001, DigiKey part number 225FE-ND
+
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/DB25-solder-cup.PNG)](https://www.digikey.com/en/products/detail/norcomp-inc/171-025-203L001/858144)
+
+### DB 25 Female PCB Pin Connector
+
+Assmann WSW Components part number A-DF 25 PP/Z, DigiKey part number AE10940-ND
+
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/DB25-pcb-pins.png)](https://www.digikey.com/en/products/detail/assmann-wsw-components/A-DF-25-PP-Z/1241794)
+
+## PICTORIAL ASSEMBLY
+
+### CUTOUT SIDE
+
+![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/metal-box-cutout-side.png)
+
+### BOTTOM OF BOX
+
+![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/metal-box-bottom-outside.png)
+
+### BRACKET INSTALLATION IN INSIDE OF BOX
+
+![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/metal-box-and-cots-bracket.png)
+
+### BRASS SCREWS THROUGH 1/2" WOOD BOARD
+
+![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/brass-screws-in-wood.png)
+
+### LID CUTOUT WITH NO CONNECTOR
+
+![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/metal-box-lid-nodsub.png)
+
+### LID CUTOUT WITH DSUB OUTSIDE
+
+![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/metal-box-lid-with-dsub.png)
+
+### LID CUTOUT WITH DSUB INSIDE
+
+![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/metal-box/images/metal-box-lid-with-dsub-inside.png)

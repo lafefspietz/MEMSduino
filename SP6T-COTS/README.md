@@ -52,7 +52,7 @@ To program over serial, connect at 9600 baud and send the character of the numbe
  - [1000 uF electrolytic capacitor](https://www.digikey.com/en/products/detail/rubycon/16PK1000MEFC10X12-5/3563556)
  - [Momentary buttons](https://www.digikey.com/en/products/detail/e-switch/TL59NF160Q/390533)
  - [JUMPER WIRE M/M 6" 20PCS](https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-12795/5993860)
- - [DB25 panel mount solder cup](https://www.digikey.com/en/products/detail/norcomp-inc/171-025-103L001/858135)
+ - [DB25 panel mount solder cup](https://www.digikey.com/en/products/detail/norcomp-inc/171-025-203L001/858144)
  - [Arduino UNO](https://www.digikey.com/en/products/detail/dfrobot/DFR0216/6579366)
  - [USB A to USB B cable](https://www.digikey.com/en/products/detail/assmann-wsw-components/AK672-2-2/947492)
  - [Neopixel programmable RGB LED](https://www.adafruit.com/product/1559)
