@@ -17,6 +17,8 @@ Open source system for controlling MEMS switches using an Arduino.  This system 
 
 ## [METAL BOX](metal-box/)
 
+## [arXiv preprint DOI](https://arxiv.org/abs/2501.03340)
+
 ## All Files
 
  - [6_port_controller.ino](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/6_port_controller.ino)
