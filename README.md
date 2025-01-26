@@ -15,6 +15,8 @@ Open source system for controlling MEMS switches using an Arduino.  This system 
 
 ## [SP3T-COTS/](SP3T-COTS/)
 
+## [SP9T/](SP9T/)
+
 ## [METAL BOX](metal-box/)
 
 ## [arXiv preprint DOI](https://arxiv.org/abs/2501.03340)
