@@ -25,6 +25,26 @@
 
 ![](images/wood-screws-number-6.png)
 
+# 3D Printed Plastic Parts
+
+![](images/3dprinted-plastic-parts.jpg)
+
+![](images/arduino-bracket.png)
+
+![](images/hv-bracket.png)
+
+![](images/edge-bracket.png)
+
+![](images/center-bracket.png)
+
+![](images/4-40-thread-inserts.png)
+
+![](images/4-40-screw.png)
+
+# Diecast Aluminum Enclosure
+
+![](images/metal-box-image.png)
+
 # Bill of Materials
 
 # Illustrated and Anotated Bill of Materials
