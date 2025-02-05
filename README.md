@@ -2,6 +2,9 @@
 
 ## [files.html](files.html)
 
+## [Video demonstrating operation, Zenodo.org page](https://zenodo.org/records/14811301)
+## [Video doi at Zenodo](https://doi.org/10.5281/zenodo.14811300)
+
 ![](qrcode.png)
 [![](qrcode-page.png)](qrcode-page.png)
 
