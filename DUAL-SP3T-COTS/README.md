@@ -1,5 +1,14 @@
-# Dual SP3T COTS
+# [Dual SP3T COTS](https://github.com/lafefspietz/MEMSduino/tree/main/DUAL-SP3T-COTS)
 
+![](images/qrcode.png)
+![](images/qrcode-page.png)
+
+Arduino-based control panel for [3PST switches](https://www.cryoelec.com/products/cryoswitchsp3t) from [Cryo-elec](https://www.cryoelec.com/).
+
+To program over serial, connect at 9600 baud and send the character of the number you want to select. For example to select 1, send "1".
+
+![](images/dual-sp3d-topology.png)
+![](images/dual-sp3t-logic.png)
 
 ## Wood Board Fabrication and Assembly
 
@@ -17,15 +26,61 @@ Buy a 4 inch by 24 inch by half inch white oak board, cut down to 19 inches. Dow
 
 [![](images/wood-template-2.png)](rack-mount-board-SP6T.pdf)
 
-[![](rack-mount-screw.png)]()
+## Fasteners and Inserts
 
-[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP3T-COTS/cryoelec-bracket-SP3T-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket-SP3T.STL)
+### 10-32 rack mount screws with knurled head
 
-# [MEMSDUINO: SP3T COTS](https://github.com/lafefspietz/MEMSduino/tree/main/SP3T-COTS)
+[![](images/rack-mount-screw-drawing.png)](https://www.mcmaster.com/92421A645/)
 
-Arduino-based control panel for [3PST switches](https://www.cryoelec.com/products/cryoswitchsp3t) from [Cryo-elec](https://www.cryoelec.com/).
+[![](images/rack-mount-screws-x4.png)](https://www.mcmaster.com/92421A645/)
 
-To program over serial, connect at 9600 baud and send the character of the number you want to select. For example to select 1, send "1".
+### #6 Wood Phillips screws
+
+[![](images/woodscrews.png)](https://www.amazon.com/Stainless-Phillips-Screws-Multipurpose-TPOHH/dp/B0CHRWGT8N)
+
+
+### 0-80 Screws and Inserts
+
+[![](images/0-80-screws.png)](https://www.amazon.com/Machine-Screws-Phillips-Stainless-Steel/dp/B07X8NTTB9/)
+
+[![](images/0-80-thread-inserts.png)](https://www.amazon.com/Z-LOK-Threaded-Insert-Plastic/dp/B08QJJDCW1/)
+
+### 4-40 Screws, Inserts, and Washers
+
+[![](images/4-40-inserts.png)](https://www.3djake.com/ruthex/threaded-insert-4-40-unc-100-pieces)
+
+[![](images/4-40-screw.png)](https://www.mcmaster.com/90272A106/)
+[![](images/4-40-screws-row.png)](https://www.mcmaster.com/90272A106/)
+
+[![](images/4-40-long-drwaing.png)](https://www.mcmaster.com/93465A113/)
+[![](images/4-40-long.png)](https://www.mcmaster.com/93465A113/)
+
+[![](images/number4-washers-drawing.png)](https://www.mcmaster.com/92916A320/)
+[![](images/number4-washers-row.png)](https://www.mcmaster.com/92916A320/)
+
+## 3d Printed Brackets
+
+### Bracket for Cryo-Elect 12 channel HV Board
+
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/cryoelec-bracket-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket.STL)
+
+### Arduino Bracket
+
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/arduino-bracket-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/arduino-bracket.STL)
+
+### Front Panel Bracket
+
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/front-panel-edge-bracket-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/front-panel-edge-bracket.STL)
+
+## Metal Box
+
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/metal-box-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-box-modifications.pdf)
+
+[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/metal-box-lid.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-lid-modifications.pdf)
+
+## Circuit Boards
+
+[SEE SP6T](https://github.com/lafefspietz/MEMSduino/tree/main/SP6T-COTS)
 
 ## BUILD GUIDE
 
@@ -131,54 +186,16 @@ To program over serial, connect at 9600 baud and send the character of the numbe
 
 
 
-## DRAWINGS
-
-
-[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP3T-COTS/cryoelec-bracket-SP3T-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/cryoelec-bracket-SP3T.STL)
-
-[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/arduino-bracket-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/arduino-bracket.STL)
-
-[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/front-panel-edge-bracket-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/front-panel-edge-bracket.STL)
-
-[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/rack-mount-board-SP6T.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/rack-mount-board-SP6T.pdf)
-
-[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/metal-box-drawing.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-box-modifications.pdf)
-
-[![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/metal-box-lid.png)](https://github.com/lafefspietz/MEMSduino/raw/refs/heads/main/AN-1304-A-lid-modifications.pdf)
-
-## BUILD IMAGES
-
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/disassembly.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/blank-wood-board.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/arduino-bracket-photo.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/bracket-on-board.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/arduino-mounted.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/shield-cable-wiring.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/cryo-elec-driver-bracket.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/board-panel-brackets.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/bracket-in-box.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/jumpers.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/headers-in-dcdc-converter-board.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/cables.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/SP6T-COTS-DCDC-wiring.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/metal-box-lid-nodsub.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/4-40-standoffs-photo.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/metal-box-lid-with-dsub.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/4-40-brass-long-screw.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/brass-screws-in-wood.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/metal-box-bottom-outside.png)
-![](https://raw.githubusercontent.com/lafefspietz/MEMSduino/refs/heads/main/SP6T-COTS/metal-box-cutout-side.png)
-
 
 
 ## ARDUINO CODE
 
 ```
-
 /*
-*  This program uses the Arduino UNO to control a set of either 2 or 4 SP3T switches
-*
-*  Lafe Spietz, NIST, 2024
+*  This program uses the Arduino UNO to control a set of 2 SP3T switches in a pair configuration
+*  Lafe Spietz, NIST, 2025
+*  Version with dual switches and a single supply for the 8 total lines for the 2 switches. Connect the ground by means of the fridge shield.  
+*  February 2025 custom for Jake Davidson in the highspeed waveform metrology group at NIST
 */
 
 #include <Adafruit_NeoPixel.h>
@@ -205,46 +222,57 @@ Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
 //define bit numbers on the Cryoelec controller and map them to Arduino pins
 
-#define redCommon 2
-#define red1_3 3
-#define red2 4
-#define red3_1 5
-#define greenCommon 6
-#define green1_3 7
-#define green2 8
-#define green3_1 9
+#define switch1_common 2 // DSUB PIN 1
+#define switch1_RF1 3    // DSUB PIN 2
+#define switch1_RF2 4    // DSUB PIN 3
+#define switch1_RF3 5    // DSUB PIN 4
+#define switch2_common 6 // DSUB PIN 5
+#define switch2_RF1 7    // DSUB PIN 6
+#define switch2_RF2 8    // DSUB PIN 7
+#define switch2_RF3 9    // DSUB PIN 8
 
 int analog = 0;// variable which reads out the analog input from the button ladder
 int delta = 20;//the acceptable difference between an analog value and an expected button state value
-int redMode = 1;//modes are 1,2 or 3
-int greenMode = 4;//modes are 4,5, or 6
-int cycle = 0;//variable for cycling colors as test pattern with switch off
+
+int mode = 1;//modes are 1, 2, or 3, which are:
+//mode 1: from RF1 on switch 1 to RF3 on switch 2
+//mode 2: from RF2 on switch 1 to RF2 on switch 2
+//mode 3: from RF3 on switch 1 to RF1 on switch 2
+
 
 void setup() {
-    Serial.begin(9600);//set the baud rate to 9600 baud.
+  Serial.begin(9600);//set the baud rate to 9600 baud.
 
-    //Set all bits to digital output mode:
-    pinMode(redCommon,OUTPUT);
-    pinMode(red1_3,OUTPUT);
-    pinMode(red2,OUTPUT);
-    pinMode(red3_1,OUTPUT);
-    pinMode(greenCommon,OUTPUT);
-    pinMode(green1_3,OUTPUT);
-    pinMode(green2,OUTPUT);
-    pinMode(green3_1,OUTPUT);
+  //Set all bits to digital output mode:
+  pinMode(switch1_common,OUTPUT);
+  pinMode(switch1_RF1,OUTPUT);
+  pinMode(switch1_RF2,OUTPUT);
+  pinMode(switch1_RF3,OUTPUT);
+  pinMode(switch2_common,OUTPUT);
+  pinMode(switch2_RF1,OUTPUT);
+  pinMode(switch2_RF2,OUTPUT);
+  pinMode(switch2_RF3,OUTPUT);
 
-    //set all pins low to start off with except common pins, which are high
-    digitalWrite(redCommon,HIGH);
-    digitalWrite(red1_3,LOW);
-    digitalWrite(red2,LOW);
-    digitalWrite(red3_1,LOW);
-    digitalWrite(greenCommon,HIGH);
-    digitalWrite(green1_3,LOW);
-    digitalWrite(green2,LOW);
-    digitalWrite(green3_1,LOW);
+  //set all pins low to start off with except common pins, which are high
+  digitalWrite(switch1_common,HIGH);
+  digitalWrite(switch1_RF1,LOW);
+  digitalWrite(switch1_RF2,LOW);
+  digitalWrite(switch1_RF3,LOW);
+  digitalWrite(switch2_common,HIGH);
+  digitalWrite(switch2_RF1,LOW);
+  digitalWrite(switch2_RF2,LOW);
+  digitalWrite(switch2_RF3,LOW);
+
+   
 
   pixels.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
-
+  pixels.setPixelColor(0, pixels.Color(0, 0, 0));    
+  pixels.setPixelColor(1, pixels.Color(0, 0, 0));    
+  pixels.setPixelColor(2, pixels.Color(0, 0, 0));    
+  pixels.setPixelColor(3, pixels.Color(0, 0, 0));    
+  pixels.setPixelColor(4, pixels.Color(0, 0, 0));    
+  pixels.setPixelColor(5, pixels.Color(0, 0, 0));   
+  
 }
 
 
@@ -272,50 +300,24 @@ void loop() {
     delay(1);
     analog = analogRead(A4);
     if(analog > 1023 - delta){
-       redMode = 1;
+      mode = 1;
     }
   }
   if(analog > 784 - delta && analog < 784 + delta){
     delay(1);
     analog = analogRead(A4);
     if(analog > 784 - delta && analog < 784 + delta){
-       redMode = 2;
+      mode = 2;
     }
   }
   if(analog > 596 - delta && analog < 596 + delta){
      delay(1);
      analog = analogRead(A4);
     if(analog > 596 - delta && analog < 596 + delta){
-      redMode = 3;
+      mode = 3;
     }
   }
 
-  if(analog > 437 - delta && analog < 437 + delta){
-     delay(1);
-     analog = analogRead(A4);
-
-    if(analog > 437 - delta && analog < 437 + delta){
-      greenMode = 4;    
-    }
-  }
-
-  if(analog > 290 - delta && analog < 290 + delta){
-     delay(1);
-     analog = analogRead(A4);
-
-    if(analog > 290 - delta && analog < 290 + delta){
-      greenMode = 5;    
-    }
-  }
-
-  if(analog > 158 - delta && analog < 158 + delta){
-     delay(1);
-     analog = analogRead(A4);
-
-    if(analog > 158 - delta && analog < 158 + delta){
-      greenMode = 6;    
-    }
-  }
 
 
   if (Serial.available()) {
@@ -323,81 +325,55 @@ void loop() {
     //read serial as ascii integer
      int ser = Serial.read();
      if(ser == 48){    //ASCII for 0
-      redMode = 0;
-      greenMode = 0;
+      mode = 0;
      }    
      if(ser == 49){    //ASCII for 1
-       redMode = 1;
+       mode = 1;
      }
      if(ser == 50){    //ASCII for 2
-       redMode = 2;
+       mode = 2;
      }
      if(ser == 51){    //ASCII for 3
-       redMode = 3;
+       mode = 3;
      }
-     if(ser == 52){    //ASCII for 4
-       greenMode = 4;
-     }
-     if(ser == 53){    //ASCII for 5
-       greenMode = 5;
-     }
-     if(ser == 54){    //ASCII for 6
-       greenMode = 6;
-     }
-
 
   }
 
-  if(redMode == 1){
-    pixels.setPixelColor(5, pixels.Color(255, 0, 0));//red path device 1 select
+  if(mode == 1){
+    pixels.setPixelColor(5, pixels.Color(0, 155, 0));//path 1 green
     pixels.setPixelColor(4, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(3, pixels.Color(0, 0, 0));    
-    digitalWrite(red1_3,HIGH);
-    digitalWrite(red2,LOW);
-    digitalWrite(red3_1,LOW);    
+    digitalWrite(switch1_RF1,HIGH);
+    digitalWrite(switch1_RF2,LOW);
+    digitalWrite(switch1_RF3,LOW);    
+    digitalWrite(switch2_RF1,LOW);
+    digitalWrite(switch2_RF2,LOW);
+    digitalWrite(switch2_RF3,HIGH);    
+
   }
-  if(redMode == 2){
+  if(mode == 2){
     pixels.setPixelColor(5, pixels.Color(0, 0, 0));
-    pixels.setPixelColor(4, pixels.Color(255, 0, 0));//red path device 2 select
+    pixels.setPixelColor(4, pixels.Color(0, 155, 0));//path 2 green
     pixels.setPixelColor(3, pixels.Color(0, 0, 0));    
-    digitalWrite(red1_3,LOW);
-    digitalWrite(red2,HIGH);
-    digitalWrite(red3_1,LOW);     
+    digitalWrite(switch1_RF1,LOW);
+    digitalWrite(switch1_RF2,HIGH);
+    digitalWrite(switch1_RF3,LOW);    
+    digitalWrite(switch2_RF1,LOW);
+    digitalWrite(switch2_RF2,HIGH);
+    digitalWrite(switch2_RF3,LOW);     
   }
-  if(redMode == 3){
+  if(mode == 3){
     pixels.setPixelColor(5, pixels.Color(0, 0, 0));
     pixels.setPixelColor(4, pixels.Color(0, 0, 0));    
-    pixels.setPixelColor(3, pixels.Color(255, 0, 0));//red path device 3 select    
-    digitalWrite(red1_3,LOW);
-    digitalWrite(red2,LOW);
-    digitalWrite(red3_1,HIGH);     
+    pixels.setPixelColor(3, pixels.Color(0, 155, 0));//path 3 green
+    digitalWrite(switch1_RF1,LOW);
+    digitalWrite(switch1_RF2,LOW);
+    digitalWrite(switch1_RF3,HIGH);    
+    digitalWrite(switch2_RF1,HIGH);
+    digitalWrite(switch2_RF2,LOW);
+    digitalWrite(switch2_RF3,LOW);        
   }
-  if(greenMode == 4){
-    pixels.setPixelColor(2, pixels.Color(0, 255, 0));//green path device 4 select    
-    pixels.setPixelColor(1, pixels.Color(0, 0, 0));    
-    pixels.setPixelColor(0, pixels.Color(0, 0, 0));    
-    digitalWrite(green1_3,HIGH);
-    digitalWrite(green2,LOW);
-    digitalWrite(green3_1,LOW);
-  }
-  if(greenMode == 5){
-    pixels.setPixelColor(2, pixels.Color(0, 0, 0));    
-    pixels.setPixelColor(1, pixels.Color(0, 255, 0));//green path device 5 select    
-    pixels.setPixelColor(0, pixels.Color(0, 0, 0));    
-    digitalWrite(green1_3,LOW);
-    digitalWrite(green2,HIGH);
-    digitalWrite(green3_1,LOW);
-  }
-  if(greenMode == 6){
-    pixels.setPixelColor(2, pixels.Color(0, 0, 0));    
-    pixels.setPixelColor(1, pixels.Color(0, 0, 0));    
-    pixels.setPixelColor(0, pixels.Color(0, 255, 0));//green path device 6 select    
-    digitalWrite(green1_3,LOW);
-    digitalWrite(green2,LOW);
-    digitalWrite(green3_1,HIGH);
-  }
-
-  if(redMode == 0){
+  if(mode == 0){
     
     pixels.setPixelColor(0, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(1, pixels.Color(0, 0, 0));    
@@ -406,12 +382,12 @@ void loop() {
     pixels.setPixelColor(4, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(5, pixels.Color(0, 0, 0));      
     
-    digitalWrite(red1_3,LOW);
-    digitalWrite(red2,LOW);
-    digitalWrite(red3_1,LOW);
-    digitalWrite(green1_3,LOW);
-    digitalWrite(green2,LOW);
-    digitalWrite(green3_1,LOW);
+    digitalWrite(switch1_RF1,LOW);
+    digitalWrite(switch1_RF2,LOW);
+    digitalWrite(switch1_RF3,LOW);    
+    digitalWrite(switch2_RF1,LOW);
+    digitalWrite(switch2_RF2,LOW);
+    digitalWrite(switch2_RF3,LOW);    
 
   }
 
@@ -420,7 +396,6 @@ void loop() {
 
 
 }
-
 
 ```
 
