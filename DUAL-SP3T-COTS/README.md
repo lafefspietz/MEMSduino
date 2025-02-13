@@ -9,6 +9,7 @@ To program over serial, connect at 9600 baud and send the character of the numbe
 
 ![](images/dual-sp3d-topology.png)
 ![](images/dual-sp3t-logic.png)
+![](images/cryoelectruthtable.png)
 
 ## Wood Board Fabrication and Assembly
 
