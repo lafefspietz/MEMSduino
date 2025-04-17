@@ -1,0 +1,144 @@
+ <!doctype html>
+<html>
+<head>
+ <!-- 
+web control of instrument
+-->
+<!--Stop Google:-->
+<META NAME="robots" CONTENT="noindex,nofollow">
+<title>web control</title>
+</head>
+<body>
+<style>
+td{
+    border:solid;
+    cursor:pointer;
+    font-size:100px;
+    border-radius:10px;
+    border-width:10px;
+    
+}
+td:hover{
+    background-color:yellow;
+}
+td:active{
+    background-color:green;
+}
+</style>
+<h1>Web Control</h1>
+<table>
+    <tr id = "button_array">
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+    </tr>
+</table>
+<ul>
+    <li>
+        <a href = "edit-index.html">edit-index.html</a>
+    </li>
+    <li>
+        <a href = "readme.html">readme.html</a>
+    </li>
+    <li>
+        <a href = "edit-html.html">edit-html.html</a>
+    </li>
+</ul>
+<script>
+
+control_data = {};
+//control_data.switch_state = 1;
+
+buttons = document.getElementById("button_array").getElementsByTagName("TD");
+//set_button_color();
+
+buttons[0].onclick = function(){
+    control_data.switch_state = 1;
+    set_buttons_color();
+    save_control_data();
+}
+buttons[1].onclick = function(){
+    control_data.switch_state = 2;
+    set_buttons_color();
+    save_control_data();
+}
+buttons[2].onclick = function(){
+    control_data.switch_state = 3;
+    set_buttons_color();
+    save_control_data();
+}
+buttons[3].onclick = function(){
+    control_data.switch_state = 4;
+    set_buttons_color();
+    save_control_data();
+}
+buttons[4].onclick = function(){
+    control_data.switch_state = 5;
+    set_buttons_color();
+    save_control_data();
+}
+buttons[5].onclick = function(){
+    control_data.switch_state = 6;
+    set_buttons_color();
+    save_control_data();
+}
+buttons[6].onclick = function(){
+    control_data.switch_state = 7;
+    set_buttons_color();
+    save_control_data();
+}
+buttons[7].onclick = function(){
+    control_data.switch_state = 8;
+    set_buttons_color();
+    save_control_data();
+}
+buttons[8].onclick = function(){
+    control_data.switch_state = 9;
+    set_buttons_color();
+    save_control_data();
+}
+
+
+
+var httpc = new XMLHttpRequest();
+httpc.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        control_data = JSON.parse(this.responseText);
+        set_buttons_color();
+    }
+};
+httpc.open("GET", "load-file.php?filename=control_data.txt", true);
+httpc.send();
+
+function save_control_data(){
+    var httpc = new XMLHttpRequest();
+    var url = "save-file.php";        
+    httpc.open("POST", url, true);
+    httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
+    httpc.send("data="+encodeURIComponent(JSON.stringify(control_data,null,"    "))+"&filename=control_data.txt");//send text to save-file.php
+}
+
+function set_buttons_color(){
+    for(var index = 0;index < buttons.length;index++){
+        if(index == control_data.switch_state - 1){
+            buttons[index].style.borderColor = "red";
+            buttons[index].style.color = "red";
+        }
+        else{
+            buttons[index].style.borderColor = "black";
+            buttons[index].style.color = "black";
+        }
+    }    
+}
+
+</script>
+<style>
+</style>
+</body>
+</html>

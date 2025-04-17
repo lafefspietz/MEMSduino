@@ -15,6 +15,33 @@ Open source system for controlling MEMS switches using an Arduino.  This system 
 ![](images/sp8t-panel.png)
 ![](images/switchboard.gif)
 
+## Python Code Snippets
+
+List com port objects:
+```
+import serial
+import serial.tools.list_ports
+ports = serial.tools.list_ports.comports()
+
+for port, desc, hwid in sorted(ports):
+       print("{}: {} [{}]".format(port, desc, hwid))
+
+```
+
+Create serial object
+```
+SP9T_serial = serial.Serial('COM18', 9600)  # open serial port
+
+```
+
+Write to set to port 2:
+
+```
+SP9T_serial.write(bytes(str(2), encoding='utf-8'))
+
+```
+
+
 ## [SP6T-COTS/](SP6T-COTS/)
 
 ## [DUAL-SP3T-COTS/](DUAL-SP3T-COTS/)

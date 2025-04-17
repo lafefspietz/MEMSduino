@@ -1,0 +1,29 @@
+{
+    "html": [
+        "README.md",
+        "branch.html",
+        "control_data.txt",
+        "delete-html.html",
+        "delete-php.html",
+        "dna.txt",
+        "edit-html.html",
+        "edit-index.html",
+        "edit-php.html",
+        "index.html",
+        "readme.html",
+        "set_switch_loop.py"
+    ],
+    "php": [
+        "branch.txt",
+        "compile-php.txt",
+        "delete-branch.txt",
+        "delete-file.txt",
+        "generate-dna.txt",
+        "list-branches.txt",
+        "list-files.txt",
+        "load-file.txt",
+        "local-replicator.txt",
+        "replicator.txt",
+        "save-file.txt"
+    ]
+}
