@@ -1,0 +1,38 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MEMSDuino file repository
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Lafe
+    family-names: Spietz
+    email: lafe.f.spietz@nist.gov
+    affiliation: NIST
+    orcid: 'https://orcid.org/0009-0003-8717-5558'
+  - given-names: Adam
+    family-names: Sirois
+    affiliation: NIST
+  - given-names: Nathan
+    family-names: Flowers-Jacobs
+    affiliation: NIST
+  - given-names: Steve
+    family-names: Waltman
+    affiliation: Google
+  - given-names: Samuel
+    family-names: Benz
+    affiliation: NIST
+  - given-names: Peter
+    family-names: Hopkins
+    affiliation: NIST
+repository-code: 'https://github.com/lafefspietz/MEMSduino'
+keywords:
+  - mems
+  - arduino
+  - controller
+  - quantum
+  - physics
+license: CC0-1.0
