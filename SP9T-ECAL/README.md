@@ -1,6 +1,10 @@
-# SP9T SP4T ECAL
+# [SP9T SP4T ECAL])(https://github.com/lafefspietz/MEMSduino/tree/main/SP9T-ECAL)
 
 ![](images/SP9T-ECAL-photo.jpg)
+
+![](images/qrcode.png)
+![](images/qrcode-page.png)
+
 
 ```
 
