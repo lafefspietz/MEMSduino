@@ -38,10 +38,11 @@ Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 #define U3_COM 9
 
 //Externally connected pins
-#define ECAL_SHORT 34
-#define ECAL_LOAD 36
-#define ECAL_IN 32
-#define ECAL_OUT 30
+
+#define ECAL_IN 36     //DSUB 4
+#define ECAL_SHORT 34  //DSUB 5
+#define ECAL_OUT 32    //DSUB 6
+#define ECAL_LOAD 30   //DSUB 7
 
 int analog = 0;
 int analogEcal = 0;// analog state variable of the button analog control line for the E-cal, read from analog pin A4
