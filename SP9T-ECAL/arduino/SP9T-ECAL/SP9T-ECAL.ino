@@ -672,7 +672,7 @@ if(modeEcal == 2){
 
     digitalWrite(ECAL_SHORT,LOW);
     digitalWrite(ECAL_LOAD,LOW);
-    digitalWrite(ECAL_IN,LOW);
+    digitalWrite(ECAL_IN,HIGH);
     digitalWrite(ECAL_OUT,LOW);
 
 }
