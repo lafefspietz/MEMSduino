@@ -130,14 +130,16 @@ if(analog > 1024 - delta){
     delay(1);
     analog = analogRead(A12);
     if(analog > 1023 - delta){
-       mode = 1;//symmetric port 1
+      mode = 1;//symmetric port 1
+      closeall();
     }
   }
   if(analog > 786 - delta && analog < 786 + delta){
     delay(5);
     analog = analogRead(A12);
     if(analog > 786 - delta && analog < 786 + delta){
-         mode = 2;//symmetric port 2
+      mode = 2;//symmetric port 2
+      closeall();
     }
   }
   if(analog > 601 - delta && analog < 601 + delta){
@@ -145,6 +147,7 @@ if(analog > 1024 - delta){
     analog = analogRead(A12);
     if(analog > 601 - delta && analog < 601 + delta){
       mode = 3;//symmetric port 3    
+      closeall();
     }
   }
 
@@ -153,6 +156,7 @@ if(analog > 1024 - delta){
     analog = analogRead(A12);
     if(analog > 444 - delta && analog < 444 + delta){
       mode = 4;//symmetric port 4
+      closeall();
     }
   }
 
@@ -161,6 +165,7 @@ if(analog > 1024 - delta){
     analog = analogRead(A12);
     if(analog > 300 - delta && analog < 300 + delta){
       mode = 5;//symmetric port 5
+      closeall();
     }
   }
 
@@ -169,6 +174,8 @@ if(analog > 1024 - delta){
      analog = analogRead(A12);
     if(analog > 155 - delta && analog < 155 + delta){
       mode = 6;//symmetric port 6
+      closeall();
+ 
     }
   }
 
@@ -178,6 +185,8 @@ if(analog > 1024 - delta){
     analogEcal = analogRead(A13);
     if(analogEcal > 1023 - delta){
       mode = 8;//short
+      closeall();
+
     }
   }
 
@@ -186,6 +195,8 @@ if(analog > 1024 - delta){
     analogEcal = analogRead(A13);
     if(analogEcal > 715 - delta && analogEcal < 715 + delta){
       mode = 9;//open
+      closeall();
+
     }
   }
 
@@ -194,6 +205,8 @@ if(analog > 1024 - delta){
     analogEcal = analogRead(A13);
     if(analogEcal > 465 - delta && analogEcal < 465 + delta){
       mode = 10;//load
+       closeall();
+     
     }
   }
 
@@ -202,6 +215,7 @@ if(analog > 1024 - delta){
     analogEcal = analogRead(A13);
     if(analogEcal > 237 - delta && analogEcal < 237 + delta){
       mode = 7;//thru(ECAL DUT)
+    
     }
   }
 
@@ -209,6 +223,9 @@ if(analog > 1024 - delta){
 
     //read serial as ascii integer
     int ser = Serial.read();
+    if(ser == 48 || ser == 49 || ser == 50 || ser == 51 || ser == 52 || ser == 53 || ser == 53 || ser == 115 || ser == 111 || ser == 108 || ser == 116){
+      closeall();
+    }
     //Serial.println(ser);
     if(ser == 48){    //ASCII for 0
       mode = 0;
@@ -261,32 +278,6 @@ if(analog > 1024 - delta){
     pixels.setPixelColor(8, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(9, pixels.Color(255, 0, 0));    
     
-    //close all switches
-    digitalWrite(DSUB1,HIGH);
-    digitalWrite(DSUB2,HIGH);
-    digitalWrite(DSUB3,HIGH);
-    digitalWrite(DSUB4,HIGH);
-    digitalWrite(DSUB5,HIGH);
-    digitalWrite(DSUB6,HIGH);
-    digitalWrite(DSUB7,HIGH);
-    digitalWrite(DSUB8,HIGH);
-    digitalWrite(DSUB9,HIGH);
-    digitalWrite(DSUB10,HIGH);
-    digitalWrite(DSUB11,HIGH);
-    digitalWrite(DSUB12,HIGH);
-  //NEVER SEND VOLTAGE TO PINS 14 OR 15, THEY ARE GROUND!
-    digitalWrite(DSUB16,HIGH);
-    digitalWrite(DSUB17,HIGH);
-    digitalWrite(DSUB18,HIGH);
-    digitalWrite(DSUB19,HIGH);
-    digitalWrite(DSUB20,HIGH);
-    digitalWrite(DSUB21,HIGH);
-    digitalWrite(DSUB22,HIGH);
-    digitalWrite(DSUB23,HIGH);
-    digitalWrite(DSUB24,HIGH);
-    digitalWrite(DSUB25,HIGH);
-    delay(25);
-
     digitalWrite(DSUB1,LOW);
     digitalWrite(DSUB2,LOW);
     digitalWrite(DSUB3,LOW);
@@ -316,7 +307,6 @@ if(analog > 1024 - delta){
     digitalWrite(DSUB17,HIGH);
     digitalWrite(DSUB22,HIGH);
     digitalWrite(DSUB24,HIGH);
-
 
   }
   if(mode == 2){
@@ -334,32 +324,6 @@ if(analog > 1024 - delta){
     pixels.setPixelColor(8, pixels.Color(255, 0, 0));    
     pixels.setPixelColor(9, pixels.Color(0, 0, 0));    
 
-    //close all switches
-    digitalWrite(DSUB1,HIGH);
-    digitalWrite(DSUB2,HIGH);
-    digitalWrite(DSUB3,HIGH);
-    digitalWrite(DSUB4,HIGH);
-    digitalWrite(DSUB5,HIGH);
-    digitalWrite(DSUB6,HIGH);
-    digitalWrite(DSUB7,HIGH);
-    digitalWrite(DSUB8,HIGH);
-    digitalWrite(DSUB9,HIGH);
-    digitalWrite(DSUB10,HIGH);
-    digitalWrite(DSUB11,HIGH);
-    digitalWrite(DSUB12,HIGH);
-    //NEVER SEND VOLTAGE TO PINS 14 OR 15, THEY ARE GROUND!
-    digitalWrite(DSUB16,HIGH);
-    digitalWrite(DSUB17,HIGH);
-    digitalWrite(DSUB18,HIGH);
-    digitalWrite(DSUB19,HIGH);
-    digitalWrite(DSUB20,HIGH);
-    digitalWrite(DSUB21,HIGH);
-    digitalWrite(DSUB22,HIGH);
-    digitalWrite(DSUB23,HIGH);
-    digitalWrite(DSUB24,HIGH);
-    digitalWrite(DSUB25,HIGH);
-    delay(25);
-
     digitalWrite(DSUB1,LOW);
     digitalWrite(DSUB2,LOW);
     digitalWrite(DSUB3,LOW);
@@ -390,7 +354,6 @@ if(analog > 1024 - delta){
     digitalWrite(DSUB22,HIGH);
     digitalWrite(DSUB16,HIGH);
 
-
   }
   if(mode == 3){
     //PORT 3
@@ -406,32 +369,6 @@ if(analog > 1024 - delta){
     pixels.setPixelColor(7, pixels.Color(255, 0, 0));    
     pixels.setPixelColor(8, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(9, pixels.Color(0, 0, 0));    
-
-    //close all switches
-    digitalWrite(DSUB1,HIGH);
-    digitalWrite(DSUB2,HIGH);
-    digitalWrite(DSUB3,HIGH);
-    digitalWrite(DSUB4,HIGH);
-    digitalWrite(DSUB5,HIGH);
-    digitalWrite(DSUB6,HIGH);
-    digitalWrite(DSUB7,HIGH);
-    digitalWrite(DSUB8,HIGH);
-    digitalWrite(DSUB9,HIGH);
-    digitalWrite(DSUB10,HIGH);
-    digitalWrite(DSUB11,HIGH);
-    digitalWrite(DSUB12,HIGH);
-  //NEVER SEND VOLTAGE TO PINS 14 OR 15, THEY ARE GROUND!
-    digitalWrite(DSUB16,HIGH);
-    digitalWrite(DSUB17,HIGH);
-    digitalWrite(DSUB18,HIGH);
-    digitalWrite(DSUB19,HIGH);
-    digitalWrite(DSUB20,HIGH);
-    digitalWrite(DSUB21,HIGH);
-    digitalWrite(DSUB22,HIGH);
-    digitalWrite(DSUB23,HIGH);
-    digitalWrite(DSUB24,HIGH);
-    digitalWrite(DSUB25,HIGH);
-    delay(25);
 
     digitalWrite(DSUB1,LOW);
     digitalWrite(DSUB2,LOW);
@@ -479,32 +416,6 @@ if(analog > 1024 - delta){
     pixels.setPixelColor(8, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(9, pixels.Color(0, 0, 0));    
 
-    //close all switches
-    digitalWrite(DSUB1,HIGH);
-    digitalWrite(DSUB2,HIGH);
-    digitalWrite(DSUB3,HIGH);
-    digitalWrite(DSUB4,HIGH);
-    digitalWrite(DSUB5,HIGH);
-    digitalWrite(DSUB6,HIGH);
-    digitalWrite(DSUB7,HIGH);
-    digitalWrite(DSUB8,HIGH);
-    digitalWrite(DSUB9,HIGH);
-    digitalWrite(DSUB10,HIGH);
-    digitalWrite(DSUB11,HIGH);
-    digitalWrite(DSUB12,HIGH);
-  //NEVER SEND VOLTAGE TO PINS 14 OR 15, THEY ARE GROUND!
-    digitalWrite(DSUB16,HIGH);
-    digitalWrite(DSUB17,HIGH);
-    digitalWrite(DSUB18,HIGH);
-    digitalWrite(DSUB19,HIGH);
-    digitalWrite(DSUB20,HIGH);
-    digitalWrite(DSUB21,HIGH);
-    digitalWrite(DSUB22,HIGH);
-    digitalWrite(DSUB23,HIGH);
-    digitalWrite(DSUB24,HIGH);
-    digitalWrite(DSUB25,HIGH);
-    delay(25);
-
     digitalWrite(DSUB1,LOW);
     digitalWrite(DSUB2,LOW);
     digitalWrite(DSUB3,LOW);
@@ -549,32 +460,6 @@ if(analog > 1024 - delta){
     pixels.setPixelColor(7, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(8, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(9, pixels.Color(0, 0, 0));    
-
-    //close all switches
-    digitalWrite(DSUB1,HIGH);
-    digitalWrite(DSUB2,HIGH);
-    digitalWrite(DSUB3,HIGH);
-    digitalWrite(DSUB4,HIGH);
-    digitalWrite(DSUB5,HIGH);
-    digitalWrite(DSUB6,HIGH);
-    digitalWrite(DSUB7,HIGH);
-    digitalWrite(DSUB8,HIGH);
-    digitalWrite(DSUB9,HIGH);
-    digitalWrite(DSUB10,HIGH);
-    digitalWrite(DSUB11,HIGH);
-    digitalWrite(DSUB12,HIGH);
-  //NEVER SEND VOLTAGE TO PINS 14 OR 15, THEY ARE GROUND!
-    digitalWrite(DSUB16,HIGH);
-    digitalWrite(DSUB17,HIGH);
-    digitalWrite(DSUB18,HIGH);
-    digitalWrite(DSUB19,HIGH);
-    digitalWrite(DSUB20,HIGH);
-    digitalWrite(DSUB21,HIGH);
-    digitalWrite(DSUB22,HIGH);
-    digitalWrite(DSUB23,HIGH);
-    digitalWrite(DSUB24,HIGH);
-    digitalWrite(DSUB25,HIGH);
-    delay(25);
 
     digitalWrite(DSUB1,LOW);
     digitalWrite(DSUB2,LOW);
@@ -622,32 +507,6 @@ if(analog > 1024 - delta){
     pixels.setPixelColor(8, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(9, pixels.Color(0, 0, 0));    
     
-    //close all switches
-    digitalWrite(DSUB1,HIGH);
-    digitalWrite(DSUB2,HIGH);
-    digitalWrite(DSUB3,HIGH);
-    digitalWrite(DSUB4,HIGH);
-    digitalWrite(DSUB5,HIGH);
-    digitalWrite(DSUB6,HIGH);
-    digitalWrite(DSUB7,HIGH);
-    digitalWrite(DSUB8,HIGH);
-    digitalWrite(DSUB9,HIGH);
-    digitalWrite(DSUB10,HIGH);
-    digitalWrite(DSUB11,HIGH);
-    digitalWrite(DSUB12,HIGH);
-  //NEVER SEND VOLTAGE TO PINS 14 OR 15, THEY ARE GROUND!
-    digitalWrite(DSUB16,HIGH);
-    digitalWrite(DSUB17,HIGH);
-    digitalWrite(DSUB18,HIGH);
-    digitalWrite(DSUB19,HIGH);
-    digitalWrite(DSUB20,HIGH);
-    digitalWrite(DSUB21,HIGH);
-    digitalWrite(DSUB22,HIGH);
-    digitalWrite(DSUB23,HIGH);
-    digitalWrite(DSUB24,HIGH);
-    digitalWrite(DSUB25,HIGH);
-    delay(25);
-
     digitalWrite(DSUB1,LOW);
     digitalWrite(DSUB2,LOW);
     digitalWrite(DSUB3,LOW);
@@ -678,7 +537,6 @@ if(analog > 1024 - delta){
     digitalWrite(DSUB22,HIGH);
     digitalWrite(DSUB23,HIGH);    
     
-       
   }
 
   if(mode == 0){
@@ -695,32 +553,6 @@ if(analog > 1024 - delta){
     pixels.setPixelColor(7, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(8, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(9, pixels.Color(0, 0, 0));  
-
-    //close all switches
-    digitalWrite(DSUB1,HIGH);
-    digitalWrite(DSUB2,HIGH);
-    digitalWrite(DSUB3,HIGH);
-    digitalWrite(DSUB4,HIGH);
-    digitalWrite(DSUB5,HIGH);
-    digitalWrite(DSUB6,HIGH);
-    digitalWrite(DSUB7,HIGH);
-    digitalWrite(DSUB8,HIGH);
-    digitalWrite(DSUB9,HIGH);
-    digitalWrite(DSUB10,HIGH);
-    digitalWrite(DSUB11,HIGH);
-    digitalWrite(DSUB12,HIGH);
-    //NEVER SEND VOLTAGE TO PINS 14 OR 15, THEY ARE GROUND!
-    digitalWrite(DSUB16,HIGH);
-    digitalWrite(DSUB17,HIGH);
-    digitalWrite(DSUB18,HIGH);
-    digitalWrite(DSUB19,HIGH);
-    digitalWrite(DSUB20,HIGH);
-    digitalWrite(DSUB21,HIGH);
-    digitalWrite(DSUB22,HIGH);
-    digitalWrite(DSUB23,HIGH);
-    digitalWrite(DSUB24,HIGH);
-    digitalWrite(DSUB25,HIGH);
-    delay(25);
 
     digitalWrite(DSUB1,LOW);
     digitalWrite(DSUB2,LOW);
@@ -763,32 +595,6 @@ if(analog > 1024 - delta){
     pixels.setPixelColor(7, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(8, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(9, pixels.Color(0, 0, 0));  
-
-    //close all switches
-    digitalWrite(DSUB1,HIGH);
-    digitalWrite(DSUB2,HIGH);
-    digitalWrite(DSUB3,HIGH);
-    digitalWrite(DSUB4,HIGH);
-    digitalWrite(DSUB5,HIGH);
-    digitalWrite(DSUB6,HIGH);
-    digitalWrite(DSUB7,HIGH);
-    digitalWrite(DSUB8,HIGH);
-    digitalWrite(DSUB9,HIGH);
-    digitalWrite(DSUB10,HIGH);
-    digitalWrite(DSUB11,HIGH);
-    digitalWrite(DSUB12,HIGH);
-    //NEVER SEND VOLTAGE TO PINS 14 OR 15, THEY ARE GROUND!
-    digitalWrite(DSUB16,HIGH);
-    digitalWrite(DSUB17,HIGH);
-    digitalWrite(DSUB18,HIGH);
-    digitalWrite(DSUB19,HIGH);
-    digitalWrite(DSUB20,HIGH);
-    digitalWrite(DSUB21,HIGH);
-    digitalWrite(DSUB22,HIGH);
-    digitalWrite(DSUB23,HIGH);
-    digitalWrite(DSUB24,HIGH);
-    digitalWrite(DSUB25,HIGH);
-    delay(25);
 
     digitalWrite(DSUB1,LOW);
     digitalWrite(DSUB2,LOW);
@@ -833,32 +639,6 @@ if(analog > 1024 - delta){
     pixels.setPixelColor(8, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(9, pixels.Color(0, 0, 0));  
 
-    //close all switches
-    digitalWrite(DSUB1,HIGH);
-    digitalWrite(DSUB2,HIGH);
-    digitalWrite(DSUB3,HIGH);
-    digitalWrite(DSUB4,HIGH);
-    digitalWrite(DSUB5,HIGH);
-    digitalWrite(DSUB6,HIGH);
-    digitalWrite(DSUB7,HIGH);
-    digitalWrite(DSUB8,HIGH);
-    digitalWrite(DSUB9,HIGH);
-    digitalWrite(DSUB10,HIGH);
-    digitalWrite(DSUB11,HIGH);
-    digitalWrite(DSUB12,HIGH);
-    //NEVER SEND VOLTAGE TO PINS 14 OR 15, THEY ARE GROUND!
-    digitalWrite(DSUB16,HIGH);
-    digitalWrite(DSUB17,HIGH);
-    digitalWrite(DSUB18,HIGH);
-    digitalWrite(DSUB19,HIGH);
-    digitalWrite(DSUB20,HIGH);
-    digitalWrite(DSUB21,HIGH);
-    digitalWrite(DSUB22,HIGH);
-    digitalWrite(DSUB23,HIGH);
-    digitalWrite(DSUB24,HIGH);
-    digitalWrite(DSUB25,HIGH);
-    delay(25);
-
     digitalWrite(DSUB1,LOW);
     digitalWrite(DSUB2,LOW);
     digitalWrite(DSUB3,LOW);
@@ -901,32 +681,6 @@ if(analog > 1024 - delta){
     pixels.setPixelColor(8, pixels.Color(0, 0, 0));    
     pixels.setPixelColor(9, pixels.Color(0, 0, 0));      
     
-    //close all switches
-    digitalWrite(DSUB1,HIGH);
-    digitalWrite(DSUB2,HIGH);
-    digitalWrite(DSUB3,HIGH);
-    digitalWrite(DSUB4,HIGH);
-    digitalWrite(DSUB5,HIGH);
-    digitalWrite(DSUB6,HIGH);
-    digitalWrite(DSUB7,HIGH);
-    digitalWrite(DSUB8,HIGH);
-    digitalWrite(DSUB9,HIGH);
-    digitalWrite(DSUB10,HIGH);
-    digitalWrite(DSUB11,HIGH);
-    digitalWrite(DSUB12,HIGH);
-    //NEVER SEND VOLTAGE TO PINS 14 OR 15, THEY ARE GROUND!
-    digitalWrite(DSUB16,HIGH);
-    digitalWrite(DSUB17,HIGH);
-    digitalWrite(DSUB18,HIGH);
-    digitalWrite(DSUB19,HIGH);
-    digitalWrite(DSUB20,HIGH);
-    digitalWrite(DSUB21,HIGH);
-    digitalWrite(DSUB22,HIGH);
-    digitalWrite(DSUB23,HIGH);
-    digitalWrite(DSUB24,HIGH);
-    digitalWrite(DSUB25,HIGH);
-    delay(25);
-
     digitalWrite(DSUB1,LOW);
     digitalWrite(DSUB2,LOW);
     digitalWrite(DSUB3,LOW);
@@ -978,4 +732,57 @@ if(analog > 1024 - delta){
   delay(1); // Pause before next pass through loop
 
 
+}
+
+void closeall(){
+      //close all switches
+      digitalWrite(DSUB1,HIGH);
+      digitalWrite(DSUB2,HIGH);
+      digitalWrite(DSUB3,HIGH);
+      digitalWrite(DSUB4,HIGH);
+      digitalWrite(DSUB5,HIGH);
+      digitalWrite(DSUB6,HIGH);
+      digitalWrite(DSUB7,HIGH);
+      digitalWrite(DSUB8,HIGH);
+      digitalWrite(DSUB9,HIGH);
+      digitalWrite(DSUB10,HIGH);
+      digitalWrite(DSUB11,HIGH);
+      digitalWrite(DSUB12,HIGH);
+      //NEVER SEND VOLTAGE TO PINS 14 OR 15, THEY ARE GROUND!
+      digitalWrite(DSUB16,HIGH);
+      digitalWrite(DSUB17,HIGH);
+      digitalWrite(DSUB18,HIGH);
+      digitalWrite(DSUB19,HIGH);
+      digitalWrite(DSUB20,HIGH);
+      digitalWrite(DSUB21,HIGH);
+      digitalWrite(DSUB22,HIGH);
+      digitalWrite(DSUB23,HIGH);
+      digitalWrite(DSUB24,HIGH);
+      digitalWrite(DSUB25,HIGH);
+      delay(25);
+       //open all switches
+      digitalWrite(DSUB1,LOW);
+      digitalWrite(DSUB2,LOW);
+      digitalWrite(DSUB3,LOW);
+      digitalWrite(DSUB4,LOW);
+      digitalWrite(DSUB5,LOW);
+      digitalWrite(DSUB6,LOW);
+      digitalWrite(DSUB7,LOW);
+      digitalWrite(DSUB8,LOW);
+      digitalWrite(DSUB9,LOW);
+      digitalWrite(DSUB10,LOW);
+      digitalWrite(DSUB11,LOW);
+      digitalWrite(DSUB12,LOW);
+      //NEVER SEND VOLTAGE TO PINS 14 OR 15, THEY ARE GROUND!
+      digitalWrite(DSUB16,LOW);
+      digitalWrite(DSUB17,LOW);
+      digitalWrite(DSUB18,LOW);
+      digitalWrite(DSUB19,LOW);
+      digitalWrite(DSUB20,LOW);
+      digitalWrite(DSUB21,LOW);
+      digitalWrite(DSUB22,LOW);
+      digitalWrite(DSUB23,LOW);
+      digitalWrite(DSUB24,LOW);
+      digitalWrite(DSUB25,LOW);
+      delay(25);
 }

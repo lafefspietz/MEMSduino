@@ -2,6 +2,7 @@
 
 ## [files.html](files.html)
 
+## [NIST Tech note describing system](https://doi.org/10.6028/NIST.TN.2335)
 ## [Video demonstrating operation, Zenodo.org page](https://zenodo.org/records/14811301)
 ## [Video doi at Zenodo](https://doi.org/10.5281/zenodo.14811300)
 
